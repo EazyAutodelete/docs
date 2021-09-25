@@ -38,5 +38,5 @@ To change your language settings, use the following command:
 !language <en/de/fr>
 ```
 
-now you're ready to go
+now you're ready to go lol
 

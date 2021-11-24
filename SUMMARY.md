@@ -3,10 +3,9 @@
 * [🤖 EazyAutodelete](README.md)
 * [🚀 Getting Started](getting-started.md)
 
-## 🔗 Links <a id="important-links"></a>
+## 🔗 Links <a href="important-links" id="important-links"></a>
 
-* [Bot Invite](https://discord.com/oauth2/authorize?client_id=746453621821931634&permissions=391232&scope=bot)
+* [Bot Invite](https://eazyautodelete.xyz/invite/)
 * [Support Server](https://dc.qreepex.xyz)
 * [Top.GG Link](https://top.gg/bot/746453621821931634)
 * [Discord Bot List](https://discordbotlist.com/bots/eazyautodelete)
-

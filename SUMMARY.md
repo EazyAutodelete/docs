@@ -2,8 +2,8 @@
 
 * [🤖 EazyAutodelete](README.md)
 * [🚀 Getting Started](getting-started.md)
-* [Configuration](configuration/README.md)
-  * [Mode](configuration/mode.md)
+* [Configuration](config/README.md)
+  * [Mode](config/mode.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>
 

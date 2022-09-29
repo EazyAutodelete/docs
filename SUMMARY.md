@@ -2,8 +2,10 @@
 
 * [🤖 EazyAutodelete](README.md)
 * [🚀 Getting Started](getting-started.md)
+* [Configuration](configuration/README.md)
+  * [Mode](configuration/mode.md)
 
-## 🔗 Links <a href="important-links" id="important-links"></a>
+## 🔗 Links <a href="#important-links" id="important-links"></a>
 
 * [Bot Invite](https://eazyautodelete.xyz/invite/)
 * [Support Server](https://eazyautodelete.xyz/discord/)

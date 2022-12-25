@@ -1,4 +1,4 @@
-# 🔠 Languages
+# 🔤 Languages
 
 EazyAutodelete is available in several languages.
 

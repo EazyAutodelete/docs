@@ -1,10 +1,8 @@
----
-description: EazyAutodelete is available in several languages.
----
-
 # 🔤 Languages
 
 EazyAutodelete is available in several languages.
+
+
 
 All currently available languages are displayed in the /language command:
 
@@ -12,7 +10,9 @@ All currently available languages are displayed in the /language command:
 /language
 ```
 
-## Help translating
+
+
+### Help translating
 
 Help us to translate the bot into more languages and complete the translations.
 

@@ -6,19 +6,19 @@ description: How the deletion algorithm works
 
 Currently 5 different modes are supported.
 
-{% hint style="danger" %}
-Be careful when changing the mode. The changes will be applied immediately and the bot will continue to work with the limit of the previous mode.
-
-First set the mode to 0, then change the limit and after that change the mode. This way there is no risk that the bot deletes messages unintentionally.
+{% hint style="warning" %}
+You have to set a new [limit](limit.md) when you change the mode.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Mode 0" %}
-Disables the deletion algorithm in the specified channel
+Disables the deletion algorithm in the specified channel.
 {% endtab %}
 
 {% tab title="Mode 1" %}
 Deletes the sent message after the given time.
+
+<figure><img src="https://cdn.eazyautodelete.xyz/assets/2d3cfd88-4ed5-4ca0-b554-21670e81742a" alt=""><figcaption><p>Deletes a sent message after 10 seconds</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Mode 2" %}

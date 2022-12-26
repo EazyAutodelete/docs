@@ -1,29 +1,41 @@
----
-description: A quick guide on how to get started with EazyAutodelete.
----
-
 # 🚀 Getting Started
+
+{% hint style="info" %}
+If you know, how to add a discord bot to your server, you can skip this.
+{% endhint %}
 
 ## Inviting the Bot
 
-Adding EazyAutodelete to your server is pretty simple.
+Ading EazyAutodelete to your server is pretty simple.
 
-1. Follow this [Link](https://eazyautodelete.xyz/invite/) to add the bot to your server
-2. Select the server you want to add the bot to
-3. Click 'Authorize'
+1. Follow this [Link](https://eazyautodelete.xyz/invite/)
+2. If you haven't already, sign in to your discord account
+3. Select the server you want to add the bot to
+4. Click 'next' & 'Authorize
+5. Done ✅
 
-EazyAutodelete should now appear in your server's member list.
+## Changing the command prefix
 
-If you have any problems or questions, feel free to join our [support server](https://eazyautodelete.xyz/invite).
+Once you succesfully added the bot your server, you can now start to change the command prefix.
 
-## Setting up the deletion algorithm
+Just type the following command:
 
-Follow these simple steps to enable the deletion algorithm in a channel.
+```
+!setprefix <yourNewPrefix>
+```
 
-1. Run the `/setup` Command.
-2. Select a [mode](config/mode.md) using the first Select Menu
-3. Setup a [limit](config/limit.md) using the "Change Limit" Button
+## Changing your language
 
-EazyAutodelete will now start deleting the messages as set.
+You can pick between
 
-For more settings, see [Configuration](config/).
+* English
+* German
+* French
+
+To change your language settings, use the following command:
+
+```
+!language <en/de/fr>
+```
+
+now you're ready to go lol

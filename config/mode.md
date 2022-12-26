@@ -6,15 +6,13 @@ description: How the deletion algorithm works
 
 Currently 5 different modes are supported.
 
-{% hint style="danger" %}
-Be careful when changing the mode. The changes will be applied immediately and the bot will continue to work with the limit of the previous mode.
-
-First set the mode to 0, then change the limit and after that change the mode. This way there is no risk that the bot deletes messages unintentionally.
+{% hint style="warning" %}
+You have to set a new [limit](limit.md) when you change the mode.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Mode 0" %}
-Disables the deletion algorithm in the specified channel
+Disables the deletion algorithm in the specified channel.
 {% endtab %}
 
 {% tab title="Mode 1" %}

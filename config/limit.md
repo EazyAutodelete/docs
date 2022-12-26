@@ -31,7 +31,7 @@ The duration must be more than 10 seconds and less than 7 days
 Specified as a simple number.
 
 {% hint style="warning" %}
-The number must be between 1 and 75.
+The number must be between 3 and 75.
 {% endhint %}
 {% endtab %}
 
@@ -39,7 +39,7 @@ The number must be between 1 and 75.
 Specified as a simple number.
 
 {% hint style="warning" %}
-The number must be between 1 and 50.
+The number must be between 3 and 50.
 {% endhint %}
 {% endtab %}
 {% endtabs %}

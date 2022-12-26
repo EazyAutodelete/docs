@@ -49,7 +49,7 @@ The number must be between 1 and 50.
 | Use of time units             | Correct use      | Incorrect use |
 | ----------------------------- | ---------------- | ------------- |
 | seconds: `s`, `sec`, `secs`   | `1mins 30sec`    | `1m30s`       |
-|  minutes: `m`, `min`, `mins`  | `5mins`          | `2,3h`        |
+| minutes: `m`, `min`, `mins`   | `5mins`          | `2,3h`        |
 | hours: `h`, `hr`, `hrs`       | `2hrs 3m`        | `1d6h3m`      |
 | days: `d`, `day`, `days`      | `1days 6hr 3min` | `1d 6hsr 3n`  |
 

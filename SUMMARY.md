@@ -9,6 +9,7 @@
   * [🔂 Filter Behavior](config/filter-behavior.md)
   * [⏪ Delete messages before](config/delete-messages-before.md)
   * [⏩ Delete messages after](config/delete-messages-after.md)
+  * [👀 Ignore Roles](config/ignore-roles.md)
 * [🔤 Languages](languages.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>

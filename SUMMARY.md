@@ -2,14 +2,15 @@
 
 * [🤖 EazyAutodelete](README.md)
 * [🚀 Getting Started](getting-started.md)
-* [🛠 Configuration](config/README.md)
-  * [⚙ Mode](config/mode.md)
+* [🛠️ Configuration](config/README.md)
+  * [⚙️ Mode](config/mode.md)
   * [🔢 Limit](config/limit.md)
   * [🔎 Filters](config/filters.md)
   * [🔂 Filter Behavior](config/filter-behavior.md)
   * [⏪ Delete messages before](config/delete-messages-before.md)
   * [⏩ Delete messages after](config/delete-messages-after.md)
   * [👀 Ignore Roles](config/ignore-roles.md)
+* [✨ Premium](premium.md)
 * [🔤 Languages](languages.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>

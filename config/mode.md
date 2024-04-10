@@ -2,7 +2,7 @@
 description: How the deletion algorithm works
 ---
 
-# ⚙️ Mode
+# ⚙️ Modes
 
 Currently 4 different modes are supported. You can create multiple configs with different modes.
 
@@ -45,7 +45,7 @@ In the case of delays, the bot may delete more messages than the limit at once.
 {% endhint %}
 
 {% hint style="warning" %}
-Using Mode 3 with any Mode in one channel can lead to slightly increased delays for message deletion.
+Using Mode 3 with any other Mode in one channel can lead to slightly increased delays for message deletion.
 {% endhint %}
 
 {% hint style="danger" %}

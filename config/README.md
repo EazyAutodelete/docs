@@ -2,9 +2,11 @@
 description: Customize everything according to your needs
 ---
 
-# 🛠 Configuration
+# 🛠️ Configuration
 
-To change a setting click the corresponding Button or use the Select Menu.
+{% hint style="info" %}
+The bot will wait one minute after your last change to a config before starting doing anything.
+{% endhint %}
 
 
 

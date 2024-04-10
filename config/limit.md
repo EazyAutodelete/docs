@@ -2,11 +2,15 @@
 description: The limit with which the deletion algorithm should work.
 ---
 
-# 🔢 Limit
+# ⌛ Limit
 
-This value specifies after how many messages or after what time the deletion algorithm should delete the messages.
+This value specifies the time or number of messages after which messages are deleted
 
-Depending on the mode, the entry is made as a simple number or as a duration.
+Depending on the mode, the input is either a duration or a simple number.
+
+{% hint style="info" %}
+For Mode 1 and 2: If a message gets edited and only meets the filters after the change, the time from sending the message is still used to calculate when to delete the message. This might lead to a message being deleted immediately after getting edited.
+{% endhint %}
 
 ## Specifying the limit for different modes
 

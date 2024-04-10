@@ -4,13 +4,15 @@
 * [🚀 Getting Started](getting-started.md)
 * [🛠️ Configuration](config/README.md)
   * [⚙️ Mode](config/mode.md)
-  * [🔢 Limit](config/limit.md)
+  * [⌛ Limit](config/limit.md)
   * [🔎 Filters](config/filters.md)
   * [🔂 Filter Behavior](config/filter-behavior.md)
   * [⏪ Delete messages before](config/delete-messages-before.md)
   * [⏩ Delete messages after](config/delete-messages-after.md)
   * [👀 Ignore Roles](config/ignore-roles.md)
+  * [📡 Load old messages](config/load-old-messages.md)
 * [✨ Premium](premium.md)
+* [🤬 Troubleshooting](troubleshooting.md)
 * [🔤 Languages](languages.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>

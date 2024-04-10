@@ -2,34 +2,56 @@
 description: How the deletion algorithm works
 ---
 
-# ⚙ Mode
+# ⚙️ Mode
 
-Currently 5 different modes are supported.
+Currently 4 different modes are supported. You can create multiple configs with different modes.
+
+Each mode works with all available [filters.md](filters.md "mention"). In each mode, all messages that do not meet the configured filters are completely ignored.
 
 {% hint style="warning" %}
-You have to set a new [limit](limit.md) when you change the mode.
+To prevent unwanted behavior: you have to set a new [limit](limit.md) after changing the mode.
 {% endhint %}
 
-{% tabs %}
-{% tab title="Mode 0" %}
-Disables the deletion algorithm in the specified channel.
-{% endtab %}
+## Mode: 0
 
-{% tab title="Mode 1" %}
-Deletes the sent message after the given time.
+Disable the deletion algorithm. The bot will not delete messages.
 
-<figure><img src="https://cdn.eazyautodelete.xyz/assets/2d3cfd88-4ed5-4ca0-b554-21670e81742a" alt=""><figcaption><p>Deletes a sent message after 10 seconds</p></figcaption></figure>
-{% endtab %}
+{% hint style="info" %}
+If there is a problem with your channel or your configs, the bot will automatically change all cofigs to mode 0.
+{% endhint %}
 
-{% tab title="Mode 2" %}
-Deletes all messages in the specified channel after the given time.
-{% endtab %}
+## Mode: 1
 
-{% tab title="Mode 3" %}
-Deletes all messages after a given amount of messages was sent.
-{% endtab %}
+Delete each messages after the configured time.
 
-{% tab title="Mode 4" %}
-Keeps a defined number of new messages and deletes the messages before.
-{% endtab %}
-{% endtabs %}
+To change the time, see [limit.md](limit.md "mention").&#x20;
+
+## Mode: 2
+
+Delete all messages after the configured time. For example, delete all messages every 5 minutes.
+
+To change the time, see [limit.md](limit.md "mention").&#x20;
+
+## Mode: 3
+
+Delete all messages after the configurent amount of messages. For example, delete all messages every 10 messages.
+
+{% hint style="info" %}
+If your channel has one ore more configs with mode 3 activated, messages are not handled until all old messages are loaded. You can see this as `Waiting to be loaded` on the `/debug` command.
+{% endhint %}
+
+{% hint style="info" %}
+In the case of delays, the bot may delete more messages than the limit at once.
+{% endhint %}
+
+{% hint style="warning" %}
+Using Mode 3 with any Mode in one channel can lead to slightly increased delays for message deletion.
+{% endhint %}
+
+{% hint style="danger" %}
+It is not recommended to use 2 or more configs with mode 3 in one channel.
+{% endhint %}
+
+## Mode: 4
+
+Mode 4 is currently unavailable. We are working to get it back again.

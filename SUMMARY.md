@@ -12,7 +12,7 @@
   * [👥 Roles](config/roles.md)
   * [👀 Ignore Roles](config/ignore-roles.md)
   * [📡 Load old messages](config/load-old-messages.md)
-* [Share & copy Configs](share-and-copy-configs.md)
+* [🌐 Share & copy Configs](share-and-copy-configs.md)
 * [✨ Premium](premium.md)
 * [🤬 Troubleshooting](troubleshooting.md)
 * [🔤 Languages](languages.md)

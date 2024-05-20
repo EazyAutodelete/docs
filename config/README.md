@@ -36,6 +36,6 @@ There are the following settings:
 [delete-messages-after.md](delete-messages-after.md)
 {% endcontent-ref %}
 
-{% content-ref url="ignore-roles.md" %}
-[ignore-roles.md](ignore-roles.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

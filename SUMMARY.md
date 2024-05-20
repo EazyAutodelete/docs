@@ -10,7 +10,6 @@
   * [⏪ Delete messages before](config/delete-messages-before.md)
   * [⏩ Delete messages after](config/delete-messages-after.md)
   * [👥 Roles](config/roles.md)
-  * [👀 Ignore Roles](config/ignore-roles.md)
   * [📡 Load old messages](config/load-old-messages.md)
 * [🌐 Share & copy Configs](share-and-copy-configs.md)
 * [✨ Premium](premium.md)

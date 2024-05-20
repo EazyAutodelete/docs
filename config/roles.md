@@ -4,7 +4,7 @@ You can either select to target or to ignore certain roles.
 
 When setting new target roles, the ignore roles will be cleared, and vice versa.
 
-You can select up to 10 roles to target or ignore. When using the [premium.md](../premium.md "mention")version, you can select up to 20 roles.
+You can select up to 10 roles to target or ignore. When using the [premium.md](../premium.md "mention") version, you can select up to 20 roles.
 
 ## Target Roles
 

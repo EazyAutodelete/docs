@@ -14,6 +14,7 @@
 * [🌐 Share & copy Configs](share-and-copy-configs.md)
 * [✨ Premium](premium.md)
 * [🤬 Troubleshooting](troubleshooting.md)
+* [🙌 Voting for EazyAutodelete](voting-for-eazyautodelete.md)
 * [🔤 Languages](languages.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>

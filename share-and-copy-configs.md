@@ -1,7 +1,3 @@
----
-description: (soon)
----
-
 # 🌐 Share & copy Configs
 
 ## Sharing Configs

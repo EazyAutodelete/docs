@@ -8,13 +8,11 @@ description: A quick guide on how to get started with EazyAutodelete.
 
 Adding EazyAutodelete to your server is pretty simple.
 
-1. Follow this [Link](https://eazyautodelete.xyz/invite/) to add the bot to your server
-2. Select the server you want to add the bot to
-3. Click 'Authorize'
+You can find a step-by-step guide on how to add EazyAutodelete to your server here:
 
-EazyAutodelete should now appear in your server's member list.
-
-If you have any problems or questions, feel free to join our [support server](https://eazyautodelete.xyz/invite).
+{% content-ref url="add-to-server.md" %}
+[add-to-server.md](add-to-server.md)
+{% endcontent-ref %}
 
 ## Setting up the deletion algorithm
 

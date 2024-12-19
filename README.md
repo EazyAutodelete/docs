@@ -8,7 +8,7 @@ With EazyAutodelete you can automatically delete messages. Choose from many diff
 
 
 
-Get started:
+You can find a brief explanation on how EazyAutodelete works here:
 
 {% content-ref url="getting-started.md" %}
 [getting-started.md](getting-started.md)

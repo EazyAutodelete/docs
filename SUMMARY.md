@@ -1,6 +1,7 @@
 # Table of contents
 
 * [🤖 EazyAutodelete](README.md)
+* [➕ Add to server](add-to-server.md)
 * [🚀 Getting Started](getting-started.md)
 * [🛠️ Configuration](config/README.md)
   * [⚙️ Modes](config/mode.md)

@@ -3,7 +3,7 @@
 * [🤖 EazyAutodelete](README.md)
 * [➕ Add to server](add-to-server.md)
 * [🚀 Getting Started](getting-started.md)
-* [🛠️ Configuration](config/README.md)
+* [🚮 Delete Configuration](config/README.md)
   * [⚙️ Modes](config/mode.md)
   * [⌛ Limit](config/limit.md)
   * [🔎 Filters](config/filters.md)
@@ -13,10 +13,16 @@
   * [👥 Roles](config/roles.md)
   * [📡 Load old messages](config/load-old-messages.md)
 * [🌐 Share & copy Configs](share-and-copy-configs.md)
+* [💬 Reference](reference/README.md)
+  * [👑 User Permissions](reference/user-permissions.md)
+  * [🔙 Load old Messages](reference/load-old-messages.md)
+* [🔤 Languages](languages.md)
+* [🛠️ Server Settings](server-settings/README.md)
+  * [Administrator Roles](server-settings/administrator-roles.md)
+  * [Moderator Roles](server-settings/moderator-roles.md)
 * [✨ Premium](premium.md)
 * [🤬 Troubleshooting](troubleshooting.md)
 * [🙌 Voting for EazyAutodelete](voting-for-eazyautodelete.md)
-* [🔤 Languages](languages.md)
 
 ## 🔗 Links <a href="#important-links" id="important-links"></a>
 

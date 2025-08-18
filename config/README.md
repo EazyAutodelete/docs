@@ -2,7 +2,7 @@
 description: Customize everything according to your needs
 ---
 
-# 🛠️ Configuration
+# 🚮 Delete Configuration
 
 {% hint style="info" %}
 The bot will wait one minute after your last change to a config before starting doing anything.

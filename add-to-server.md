@@ -2,7 +2,7 @@
 title: Add to Server
 description: How to add EazyAutodelete to your server
 published: true
-date: 2025-11-02T21:42:08.279Z
+date: 2025-11-02T21:44:30.306Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:49:00.880Z
@@ -285,6 +285,7 @@ If you ever need to remove EazyAutodelete from your server:
 - **Support Server**: [eazyautodelete.xyz/discord](https://eazyautodelete.xyz/discord/)
 - **Premium Subscription**: [eazyautodelete.xyz/premium](https://eazyautodelete.xyz/premium)
 - **Website**: [eazyautodelete.xyz](https://eazyautodelete.xyz/)
+- **FAQ**: [eazyautodelete.xyz/faq](https://eazyautodelete.xyz/faq)
 
 ### Community & Support
 

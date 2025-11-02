@@ -2,7 +2,7 @@
 title: Add to Server
 description: How to add EazyAutodelete to your server
 published: true
-date: 2025-11-02T20:11:55.625Z
+date: 2025-11-02T21:42:08.279Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:49:00.880Z
@@ -17,8 +17,6 @@ Adding EazyAutodelete to your Discord server is a straightforward process that t
 Before you begin, make sure you have:
 
 - **Administrator permission** or **Manage Server permission** on the Discord server where you want to add the bot
-- A Discord account in good standing
-- Access to a web browser (desktop or mobile)
 
 If you don't have the required permissions, ask your server owner or an administrator to add the bot for you.
 
@@ -34,16 +32,7 @@ Navigate to the official EazyAutodelete invite page:
 
 This is the only official invite link for EazyAutodelete. Be cautious of fake or phishing links from other sources.
 
-### Step 2: Log in to Discord
-
-If you're not already logged in to Discord in your browser:
-
-1. You'll be redirected to Discord's login page
-2. Enter your Discord credentials (email/phone and password)
-3. Complete any 2FA verification if you have it enabled
-4. You'll be redirected back to the bot authorization page
-
-### Step 3: Select Your Server
+### Step 2: Select Your Server
 
 On the authorization page:
 
@@ -56,7 +45,7 @@ On the authorization page:
 - Try refreshing the page
 - Check if you're logged into the correct Discord account
 
-### Step 4: Review Permissions
+### Step 3: Review Permissions
 
 The authorization page will show all the permissions EazyAutodelete needs to function:
 
@@ -64,23 +53,22 @@ The authorization page will show all the permissions EazyAutodelete needs to fun
 - **View Channels** - So the bot can see your channels
 - **Send Messages** - For configuration confirmations and responses
 - **Manage Messages** - To delete messages (core functionality)
-- **Read Message History** - To see past messages for deletion
+- **Read Message History** - To see past messages for deletion [(loading old messages)](/reference/load-old-messages)
 - **Embed Links** - For formatted messages and responses
-- **Add Reactions** - For interactive menus (if used)
 - Additional permissions for full functionality
 
 > **⚠️ Important: Do NOT change or remove any permissions!**
 > 
 > All requested permissions are necessary for EazyAutodelete to work correctly. Removing permissions will cause the bot to malfunction or fail entirely. If you remove permissions, you may see configs automatically switching to Mode 0 (disabled) or error messages.
 
-### Step 5: Authorize the Bot
+### Step 4: Authorize the Bot
 
 1. **Review the permissions** (but don't change them)
 2. **Click the "Authorize" button**
 3. **Complete the CAPTCHA** verification (if prompted)
 4. Wait for the success confirmation
 
-### Step 6: Confirmation
+### Step 5: Confirmation
 
 Once authorization is complete:
 
@@ -128,7 +116,7 @@ The easiest approach is to let the bot have server-wide permissions:
 
 ### Option 2: Channel-Specific Access
 
-If you want to restrict the bot to specific channels:
+If you want to restrict the bots permissions to specific channels:
 
 1. **Go to Channel Settings:**
    - Right-click the channel
@@ -148,7 +136,7 @@ If you want to restrict the bot to specific channels:
 
 4. **Repeat for each channel** where you want to use the bot
 
-> **💡 Tip:** If you're unsure, grant server-wide access first. You can always restrict it later.
+> **💡 Tip:** If you're unsure, grant server-wide access.
 
 ---
 
@@ -173,25 +161,25 @@ Jump straight into configuring automatic message deletion:
 Learn about all the available features:
 
 - **[Configuration Options](config/)** - Deep dive into all settings
-- **[Modes](config/mode.md)** - Different deletion algorithms
-- **[Filters](config/filters.md)** - Targeting specific message types
-- **[Roles](config/roles.md)** - Role-based deletion rules
+- **[Modes](config/mode)** - Different deletion algorithms
+- **[Filters](config/filters)** - Targeting specific message types
+- **[Roles](config/roles)** - Role-based deletion rules
 
 ### 3. Configure Server Settings
 
 Set up permission roles for your server:
 
 - **[Server Settings](server-settings/)** - Server-wide configuration
-- **[Administrator Roles](server-settings/admin-roles.md)** - Who can configure the bot
-- **[Moderator Roles](server-settings/mod-roles.md)** - Who can view logs and debug info
+- **[Administrator Roles](server-settings/admin-roles)** - Who can configure the bot
+- **[Moderator Roles](server-settings/mod-roles)** - Who can view logs and debug info
 
 ### 4. Get Support
 
 Need help or have questions?
 
-- **[Troubleshooting Guide](troubleshooting.md)** - Common issues and solutions
+- **[Troubleshooting Guide](troubleshooting)** - Common issues and solutions
 - **[Support Server](https://eazyautodelete.xyz/discord/)** - Join our community
-- **[FAQ](troubleshooting.md)** - Frequently asked questions
+- **[FAQ](https://eazyautodelete.xyz/faq)** - Frequently asked questions
 
 ---
 
@@ -209,20 +197,6 @@ Need help or have questions?
 2. Log out and log back in with the correct account
 3. Ask the server owner to check bot addition settings
 4. Ensure you're not trying to add to a DM or group
-
-### "Authorization failed"
-
-**Possible causes:**
-- Temporary Discord API issue
-- Browser problem
-- Adblocker interference
-
-**Solutions:**
-1. Try again in a few minutes
-2. Use a different browser
-3. Clear browser cache and cookies
-4. Disable adblockers temporarily
-5. Try incognito/private browsing mode
 
 ### "Bot joined but appears offline"
 
@@ -262,7 +236,7 @@ Need help or have questions?
 - Fake bots with similar names
 - Phishing links pretending to be EazyAutodelete
 - Unofficial "mirror" or "backup" versions
-- Requests for login credentials (Discord never asks for passwords)
+- Requests for login credentials (EazyAutodelete never asks for your passwords)
 
 ### Permission Safety
 
@@ -286,6 +260,8 @@ EazyAutodelete respects your privacy:
 - Doesn't share data with third parties
 - Open source and transparent operations
 
+You can get detailed information about how we use your data in our [Privacy Policy](https://eazyautodelete.xyz/privacy). You are also welcome to ask our support team at any time.
+
 ---
 
 ## Removing the Bot
@@ -296,7 +272,6 @@ If you ever need to remove EazyAutodelete from your server:
 2. **Find EazyAutodelete** in the member list
 3. **Right-click the bot** and select "Kick" or "Ban"
 4. All configs will stop working immediately
-5. No data is left behind (configs are stored on bot servers, not Discord)
 
 **Note:** Kicking the bot does NOT delete its configuration data. If you re-add it later, you'll need to recreate configs from scratch as a security measure.
 

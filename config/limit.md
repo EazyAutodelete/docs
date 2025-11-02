@@ -10,56 +10,90 @@ dateCreated: 2025-11-02T19:52:49.661Z
 
 # ⌛ Limit
 
-This value specifies the time or number of messages after which messages are deleted
+The **Limit** value is a crucial configuration setting that determines when messages are deleted. Depending on the [Mode](mode.md) you've selected, the limit is interpreted either as a **time duration** or as a **number of messages**.
 
-Depending on the mode, the input is either a duration or a simple number.
+This setting works in conjunction with your chosen mode to control the deletion timing and frequency.
 
-{% hint style="info" %}
-For Mode 1 and 2: If a message gets edited and only meets the filters after the change, the time from sending the message is still used to calculate when to delete the message. This might lead to a message being deleted immediately after getting edited.
-{% endhint %}
+> **ℹ️ Info:** For Mode 1 and Mode 2 (time-based modes): If a message gets edited and only meets your configured filters after the change, the deletion timer still uses the original send time of the message. This might lead to a message being deleted immediately or very quickly after being edited, which is intended behavior to prevent circumventing the deletion rules.
 
 ## Specifying the limit for different modes
 
-{% tabs %}
-{% tab title="Mode 1" %}
-Specified as a duration.
+### Mode 1 - Time-Based Individual Deletion
 
-{% hint style="warning" %}
-The duration must be more than 10 seconds and less than 7 days
-{% endhint %}
-{% endtab %}
+Limit is specified as a **time duration**.
 
-{% tab title="Mode 2" %}
-Specified as a duration.
+**Requirements:**
+- The duration must be **more than 10 seconds**
+- The duration must be **less than 7 days**
 
-{% hint style="warning" %}
-The duration must be more than 10 seconds and less than 7 days
-{% endhint %}
-{% endtab %}
+**Example:** Setting a limit of "2 hours" means each message will be deleted 2 hours after it was sent.
 
-{% tab title="Mode 3" %}
-Specified as a simple number.
+---
 
-{% hint style="warning" %}
-The number must be between 3 and 75.
-{% endhint %}
-{% endtab %}
+### Mode 2 - Interval-Based Bulk Deletion  
 
-{% tab title="Mode 4" %}
-Specified as a simple number.
+Limit is specified as a **time duration**.
 
-{% hint style="warning" %}
-The number must be between 3 and 50.
-{% endhint %}
-{% endtab %}
-{% endtabs %}
+**Requirements:**
+- The duration must be **more than 10 seconds**
+- The duration must be **less than 7 days**
+
+**Example:** Setting a limit of "30 minutes" means all matching messages will be deleted every 30 minutes.
+
+---
+
+### Mode 3 - Message Count-Based Deletion
+
+Limit is specified as a **simple number** (message count).
+
+**Requirements:**
+- The number must be **between 3 and 75**
+
+**Example:** Setting a limit of "50" means all matching messages will be deleted once 50 qualifying messages have been posted.
+
+---
+
+### Mode 4 - Currently Unavailable
+
+Limit would be specified as a **simple number**.
+
+**Requirements (when available):**
+- The number must be **between 3 and 50**
 
 ## How to specify durations
 
-| Use of time units             | Correct use      | Incorrect use |
-| ----------------------------- | ---------------- | ------------- |
-| seconds: `s`, `sec`, `secs`   | `1mins 30sec`    | `1m30s`       |
-| minutes: `m`, `min`, `mins`   | `5mins`          | `2,3h`        |
-| hours: `h`, `hr`, `hrs`       | `2hrs 3m`        | `1d6h3m`      |
-| days: `d`, `day`, `days`      | `1days 6hr 3min` | `1d 6hsr 3n`  |
+When setting a time duration for Mode 1 or Mode 2, you need to use specific time unit abbreviations. The bot understands various formats for flexibility.
+
+### Supported Time Units
+
+| Time Unit | Accepted Abbreviations | Example Usage |
+| --------- | ---------------------- | ------------- |
+| **Seconds** | `s`, `sec`, `secs` | `30s`, `45sec`, `60secs` |
+| **Minutes** | `m`, `min`, `mins` | `5m`, `10min`, `30mins` |
+| **Hours** | `h`, `hr`, `hrs` | `2h`, `3hr`, `12hrs` |
+| **Days** | `d`, `day`, `days` | `1d`, `2day`, `3days` |
+
+### Formatting Rules
+
+**✅ Correct Examples:**
+- `1mins 30sec` - 1 minute and 30 seconds
+- `5mins` - 5 minutes
+- `2hrs 3m` - 2 hours and 3 minutes  
+- `1days 6hr 3min` - 1 day, 6 hours, and 3 minutes
+- `30s` - 30 seconds
+- `12h` - 12 hours
+
+**❌ Incorrect Examples:**
+- `1m30s` - Missing space between units
+- `2,3h` - Using comma instead of space
+- `1d6h3m` - Missing spaces between units
+- `1d 6hsr 3n` - Typos in unit abbreviations
+
+### Tips for Duration Input
+
+- Always include a **space** between different time units
+- You can mix different units: `1day 2hr 30min`
+- Units can be in any order, but logical order (largest to smallest) is recommended
+- The bot will calculate the total duration automatically
+- Remember the limits: minimum 10 seconds, maximum 7 days
 

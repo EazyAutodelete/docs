@@ -10,38 +10,43 @@ dateCreated: 2025-11-02T19:51:10.455Z
 
 # 🚮 Delete Configuration
 
-{% hint style="info" %}
-The bot will wait one minute after your last change to a config before starting doing anything.
-{% endhint %}
+> **ℹ️ Info:** The bot will wait one minute after your last change to a config before starting to apply any changes. This buffer period ensures that you can make multiple adjustments without the bot starting and stopping repeatedly.
 
+EazyAutodelete provides comprehensive configuration options that allow you to customize the deletion algorithm exactly to your needs. You can fine-tune which messages get deleted, when they get deleted, and how the bot behaves in your channels.
 
+## Configuration Options
 
-There are the following settings:
+Below you'll find all available configuration settings for customizing message deletion:
 
-{% content-ref url="mode.md" %}
-[mode.md](mode.md)
-{% endcontent-ref %}
+### Core Settings
 
-{% content-ref url="limit.md" %}
-[limit.md](limit.md)
-{% endcontent-ref %}
+* **[⚙️ Modes](mode.md)** - Choose how the deletion algorithm works (delete messages after time, delete all at intervals, etc.)
+* **[⌛ Limit](limit.md)** - Set the time duration or message count that triggers deletion
+* **[🔎 Filters](filters.md)** - Select which types of messages to delete (with emojis, with links, bot messages, etc.)
+* **[🔂 Filter Behavior](filter-behavior.md)** - Control whether messages must match ALL filters or just ONE filter
 
-{% content-ref url="filters.md" %}
-[filters.md](filters.md)
-{% endcontent-ref %}
+### Time-Based Filtering
 
-{% content-ref url="filter-behavior.md" %}
-[filter-behavior.md](filter-behavior.md)
-{% endcontent-ref %}
+* **[⏪ Delete messages before](delete-messages-before.md)** - Only delete messages sent before a specific message (deprecated)
+* **[⏩ Delete messages after](delete-messages-after.md)** - Only delete messages sent after a specific message
 
-{% content-ref url="delete-messages-before.md" %}
-[delete-messages-before.md](delete-messages-before.md)
-{% endcontent-ref %}
+### Role-Based Configuration
 
-{% content-ref url="delete-messages-after.md" %}
-[delete-messages-after.md](delete-messages-after.md)
-{% endcontent-ref %}
+* **[👥 Roles](roles.md)** - Target or ignore messages from users with specific roles
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+### Message Loading
+
+* **[📡 Load old messages](load-old-messages.md)** - Choose whether to delete messages sent before the config was created
+
+---
+
+## Getting Started with Configuration
+
+1. Use `/setup` command to create or modify a config
+2. Choose your desired mode based on your deletion needs
+3. Add filters to specify which messages should be deleted
+4. Set a limit appropriate for your chosen mode
+5. Configure any additional settings like roles or time filters
+6. Wait one minute for the bot to start processing
+
+For a step-by-step guide on setting up your first config, see [Getting Started](/getting-started).

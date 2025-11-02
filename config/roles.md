@@ -1,3 +1,13 @@
+---
+title: roles
+description: 
+published: true
+date: 2025-11-02T19:53:56.491Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:53:43.458Z
+---
+
 # 👥 Roles
 
 You can either select to target or to ignore certain roles.

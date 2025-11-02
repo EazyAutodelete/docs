@@ -1,5 +1,11 @@
 ---
+title: languages
 description: EazyAutodelete is available in several languages.
+published: true
+date: 2025-11-02T19:49:52.153Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:49:38.678Z
 ---
 
 # 🔤 Languages

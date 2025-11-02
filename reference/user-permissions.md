@@ -1,3 +1,13 @@
+---
+title: user-permissions
+description: 
+published: true
+date: 2025-11-02T19:54:52.078Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:54:36.252Z
+---
+
 # 👑 User Permissions
 
 EazyAutodelete uses 3 primary Permission Levels to control which commands users have access to.

@@ -1,5 +1,11 @@
 ---
+title: filters
 description: The filters allow you to set exactly which messages are deleted.
+published: true
+date: 2025-11-02T19:52:41.949Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:52:27.380Z
 ---
 
 # 🔎 Filters

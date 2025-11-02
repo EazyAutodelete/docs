@@ -1,3 +1,13 @@
+---
+title: filter-behavior
+description: 
+published: true
+date: 2025-11-02T19:52:21.879Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:52:09.354Z
+---
+
 # 🔂 Filter Behavior
 
 Choose to either

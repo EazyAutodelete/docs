@@ -1,5 +1,11 @@
 ---
+title: README
 description: A Discord bot to automatically delete messages.
+published: true
+date: 2025-11-02T19:48:36.701Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:48:23.815Z
 ---
 
 # 🤖 EazyAutodelete

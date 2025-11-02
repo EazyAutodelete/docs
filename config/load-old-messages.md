@@ -1,3 +1,13 @@
+---
+title: load-old-messages
+description: 
+published: true
+date: 2025-11-02T19:53:20.185Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:53:08.240Z
+---
+
 # 📡 Load old messages
 
 After changing a config you are asked whether to load (and delete) old messages.&#x20;

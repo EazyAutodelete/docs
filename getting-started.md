@@ -1,5 +1,11 @@
 ---
+title: getting-started
 description: A quick guide on how to get started with EazyAutodelete.
+published: true
+date: 2025-11-02T19:49:33.047Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:49:19.302Z
 ---
 
 # 🚀 Getting Started

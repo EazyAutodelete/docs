@@ -1,3 +1,13 @@
+---
+title: share-and-copy-configs
+description: 
+published: true
+date: 2025-11-02T19:50:26.097Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:50:13.651Z
+---
+
 # 🌐 Share & copy Configs
 
 ## Sharing Configs

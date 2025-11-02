@@ -1,3 +1,13 @@
+---
+title: SUMMARY
+description: 
+published: true
+date: 2025-11-02T19:48:55.547Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:48:42.008Z
+---
+
 # Table of contents
 
 * [🤖 EazyAutodelete](README.md)

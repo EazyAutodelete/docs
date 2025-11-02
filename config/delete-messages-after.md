@@ -1,5 +1,11 @@
 ---
+title: delete-messages-after
 description: Delete only messages that were sent after a specific message.
+published: true
+date: 2025-11-02T19:51:42.950Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:51:29.143Z
 ---
 
 # ⏩ Delete messages after

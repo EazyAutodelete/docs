@@ -1,5 +1,11 @@
 ---
+title: README
 description: Customize everything according to your needs
+published: true
+date: 2025-11-02T19:51:23.678Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:51:10.455Z
 ---
 
 # 🚮 Delete Configuration

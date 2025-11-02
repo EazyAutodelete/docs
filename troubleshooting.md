@@ -1,3 +1,13 @@
+---
+title: troubleshooting
+description: 
+published: true
+date: 2025-11-02T19:50:45.178Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:50:31.688Z
+---
+
 # 🤬 Troubleshooting
 
 Common issues to check in case the bot isn't doing what you want it to.

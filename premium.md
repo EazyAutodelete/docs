@@ -1,3 +1,13 @@
+---
+title: premium
+description: 
+published: true
+date: 2025-11-02T19:50:08.652Z
+tags: 
+editor: markdown
+dateCreated: 2025-11-02T19:49:57.742Z
+---
+
 # ✨ Premium
 
 Subscribe to EazyAutodelete Premium to get access to more features, better limits and support the development of the project.

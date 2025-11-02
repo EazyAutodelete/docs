@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2025-11-02T19:55:33.777Z
 ---
 
-# Moderator Roles
+# 🛡️ Moderator Roles
 
 Moderator Roles grant users access to logging, debugging, and informational commands without giving them the ability to modify deletion configurations. This permission level is perfect for support staff and moderators who need to troubleshoot issues without the risk of accidentally changing deletion rules.
 

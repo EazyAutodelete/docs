@@ -1,8 +1,8 @@
 ---
-title: share-and-copy-configs
+title: Share and Copy configs
 description: 
 published: true
-date: 2025-11-02T19:50:26.097Z
+date: 2025-11-29T17:12:00.266Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:50:13.651Z

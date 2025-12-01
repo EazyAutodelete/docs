@@ -1,8 +1,8 @@
 ---
-title: getting-started
+title: Getting Started
 description: A quick guide on how to get started with EazyAutodelete.
 published: true
-date: 2025-11-02T19:49:33.047Z
+date: 2025-11-29T18:04:36.469Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:49:19.302Z
@@ -38,8 +38,8 @@ EazyAutodelete uses **configs** to define deletion rules. Understanding how conf
 
 A config is a set of deletion rules that applies to **a specific channel**. Each config includes:
 - A deletion mode (how messages are deleted)
-- Filters (which messages to delete)
 - A limit (when to delete)
+- Filters (which messages to delete)
 - Optional settings (roles, time boundaries, etc.)
 
 ### Key Facts About Configs:
@@ -62,7 +62,7 @@ Now let's create a config to start automatically deleting messages!
 
 ### Configure Deletion Mode
 
-**Choose from 4 different modes:**
+**Choose from 5 different modes:**
 
 - **Mode 1 - Time-based individual deletion**: Delete each message X seconds/minutes/hours after it's sent
   - *Example*: Delete every message 30 seconds after posting
@@ -72,11 +72,17 @@ Now let's create a config to start automatically deleting messages!
   - *Example*: Delete all messages every 5 minutes
   - *Best for*: Regular cleanup sweeps of active channels
 
-- **Mode 3 - Message count-based deletion**: Delete all messages after X messages are sent
+- **Mode 3 - Message count-based bulk deletion**: Delete all messages after X messages are sent
   - *Example*: Delete all messages once 50 messages have been posted
   - *Best for*: Maintaining a specific message history length
 
-- **Mode 4**: Currently unavailable
+- **Mode 4 - Message count-based single deletion**: Keep newest X messages and delete oldest one
+	- *Example*: Keep the newest 10 messages and delete the oldest one when a new one is created
+	- *Best for*: Limit a channel to only the essentials and keep it compact
+  
+- **Mode 5 - Daily Time-based bulk deletion**: Delete all messages daily at HH:mm.
+ 	- *Example*: Delete all messages at 10:00 UTC.
+  - *Best for*: Clean up yesterday's mess and have a fresh start for a new day
 
 **Learn more:** [Modes Documentation](config/mode.md)
 
@@ -85,12 +91,13 @@ Now let's create a config to start automatically deleting messages!
 **Filters let you target specific message types for deletion:**
 
 Choose as many filters as you need to match your use case:
+
+- Is/isn't pinned
+- Is/isn't from bots
+- Is/isn't a reply
 - Contains/doesn't contain emojis
 - Contains/doesn't contain links
 - Has/doesn't have attachments
-- Is/isn't from bots
-- Is/isn't pinned
-- Is/isn't a reply
 - And many more!
 
 **Examples:**
@@ -113,13 +120,7 @@ Choose as many filters as you need to match your use case:
 
 **The limit determines when deletion happens:**
 
-- **For Mode 1 & 2**: Specify a time duration
-  - Examples: `30s`, `5min`, `2hrs`, `1day 6hr`
-  - Minimum: 10 seconds
-  - Maximum: 7 days
-
-- **For Mode 3**: Specify a message count
-  - Range: 3 to 75 messages
+Examples: `30s`, `5min`, `2hrs`, `1day 6hr`
 
 **Learn more:** [Limit Documentation](config/limit.md)
 

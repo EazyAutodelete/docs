@@ -1,8 +1,8 @@
 ---
-title: roles
-description: 
+title: Roles
+description: Configure Roles to Target or Ignore
 published: true
-date: 2025-11-02T19:53:56.491Z
+date: 2025-11-29T17:48:35.081Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:53:43.458Z

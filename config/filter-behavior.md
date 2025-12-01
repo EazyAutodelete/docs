@@ -1,8 +1,8 @@
 ---
-title: filter-behavior
+title: Filter Behavior
 description: 
 published: true
-date: 2025-11-02T19:52:21.879Z
+date: 2025-11-29T17:15:48.649Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:09.354Z

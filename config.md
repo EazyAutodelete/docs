@@ -2,30 +2,54 @@
 title: Config
 description: 
 published: true
-date: 2025-11-02T20:41:38.958Z
+date: 2025-11-29T17:55:17.558Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T20:41:25.654Z
 ---
 
-# 🚮 Configuration
+# 🚮 Message Delete Configuration
 
 EazyAutodelete provides powerful and flexible configuration options that allow you to customize the deletion algorithm precisely to your needs. Whether you want simple time-based deletion or complex multi-filter rules, you have complete control over how messages are handled in your channels.
 
-## What is a Configuration?
+## Configuration Options
 
-A **configuration** (or "config") is a set of rules that defines:
-- **When** messages should be deleted (mode and limit)
-- **Which** messages should be deleted (filters)
-- **How** filters work together (filter behavior)
-- **Whose** messages are affected (role filtering)
-- **Where** in the message timeline to operate (time boundaries)
+Below you'll find all available configuration settings for customizing message deletion:
 
-Each config is channel-specific and operates independently from other configs, even within the same channel.
+### Core Settings
+
+* **[⚙️ Modes](mode.md)** - Choose how the deletion algorithm works (delete messages after time, delete all at intervals, etc.)
+* **[⌛ Limit](limit.md)** - Set the time duration or message count that triggers deletion
+* **[🔎 Filters](filters.md)** - Select which types of messages to delete (with emojis, with links, bot messages, etc.)
+* **[🔂 Filter Behavior](filter-behavior.md)** - Control whether messages must match ALL filters or just ONE filter
+
+### Time-Based Filtering
+
+* **[⏪ Delete messages before](delete-messages-before.md)** - Only delete messages sent before a specific message (deprecated)
+* **[⏩ Delete messages after](delete-messages-after.md)** - Only delete messages sent after a specific message
+
+### Role-Based Configuration
+
+* **[👥 Roles](roles.md)** - Target or ignore messages from users with specific roles
+
+### Message Loading
+
+* **[📡 Load old messages](load-old-messages.md)** - Choose whether to delete messages sent before the config was created
+
+> **ℹ️ Info:** The bot will wait one minute after your last change to a config before starting to apply any changes. This buffer period ensures that you can make multiple adjustments without the bot starting and stopping repeatedly.
 
 ---
 
-## Core Configuration Settings
+## Getting Started with a Configuration
+
+1. Use `/setup` command to create or modify a config
+2. Choose your desired mode based on your deletion needs
+3. Add filters to specify which messages should be deleted
+4. Set a limit appropriate for your chosen mode
+5. Configure any additional settings like roles or time filters
+6. Wait one minute for the bot to start processing
+
+For a step-by-step guide on setting up your first config, see [Getting Started](/getting-started).
 
 ### Essential Settings
 
@@ -35,14 +59,10 @@ These are the fundamental settings every config must have:
 Determines HOW the deletion algorithm works:
 - **Mode 0**: Disabled (no deletion)
 - **Mode 1**: Delete each message after X time individually
-- **Mode 2**: Delete all messages every X time (bulk intervals)
+- **Mode 2**: Delete all messages every X time (interval)
 - **Mode 3**: Delete all messages after X message count
-- **Mode 4**: Currently unavailable
-
-**Example use cases:**
-- Mode 1 for self-destructing temporary channels
-- Mode 2 for scheduled bulk cleanup
-- Mode 3 for maintaining specific message history length
+- **Mode 4**: Limit the amount of messages in a channel. Keep the newest X messages and delete oldest when a new one is created.
+- **Mode 5**: Delete all messages daily at HH:mm.
 
 #### **[⌛ Limit](config/limit.md)**
 Sets the time or count that triggers deletion:

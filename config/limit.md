@@ -1,8 +1,8 @@
 ---
-title: limit
+title: Limit
 description: The limit with which the deletion algorithm should work.
 published: true
-date: 2025-11-02T19:53:02.879Z
+date: 2025-11-29T17:08:41.468Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:49.661Z

@@ -2,7 +2,7 @@
 title: Add to Server
 description: How to add EazyAutodelete to your server
 published: true
-date: 2025-11-02T21:44:30.306Z
+date: 2025-11-02T21:44:45.618Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:49:00.880Z

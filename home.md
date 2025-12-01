@@ -2,7 +2,7 @@
 title: EazyAutodelete
 description: With EazyAutodelete you can automatically delete messages. Choose from many different modes, filters and more to customize which messages are deleted.
 published: true
-date: 2025-11-02T20:51:33.057Z
+date: 2025-11-29T16:55:56.083Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T20:09:24.067Z

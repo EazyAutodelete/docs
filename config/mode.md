@@ -1,8 +1,8 @@
 ---
-title: mode
+title: Mode
 description: How the deletion algorithm works
 published: true
-date: 2025-11-02T19:53:38.163Z
+date: 2025-11-29T17:07:51.172Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:53:25.143Z

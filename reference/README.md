@@ -2,7 +2,7 @@
 title: README
 description: This page holds explanations for common concepts used within EazyAutodelete.
 published: true
-date: 2025-11-02T19:54:13.470Z
+date: 2025-11-02T21:34:19.658Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:54:01.385Z

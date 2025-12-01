@@ -1,8 +1,8 @@
 ---
-title: mod-roles
-description: 
+title: Moderator Roles
+description: Details on Moderator Roles and Server-wide Permissions
 published: true
-date: 2025-11-02T19:55:46.581Z
+date: 2025-11-29T17:38:04.447Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:55:33.777Z

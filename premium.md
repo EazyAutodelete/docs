@@ -1,8 +1,8 @@
 ---
-title: premium
+title: Premium
 description: 
 published: true
-date: 2025-11-02T19:50:08.652Z
+date: 2025-11-29T17:10:25.370Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:49:57.742Z

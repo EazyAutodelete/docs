@@ -1,8 +1,8 @@
 ---
-title: delete-messages-before
+title: Delete Messages before
 description: Delete only messages that were sent before a specific message.
 published: true
-date: 2025-11-02T19:52:03.160Z
+date: 2025-11-29T17:13:39.273Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:51:49.481Z
@@ -38,6 +38,4 @@ While this specific feature is no longer available, you may need to find message
 If you need similar functionality, consider these alternatives:
 
 1. **Use "Delete messages after"**: Use the [Delete messages after](delete-messages-after.md) feature to set a starting point instead of an ending point
-2. **Manual cleanup**: Use Discord's built-in message management or bulk delete bots for one-time historical cleanup
-3. **Mode-based timing**: Use different [Modes](mode.md) to control deletion timing
-4. **Contact support**: Reach out on our [Support Server](https://eazyautodelete.xyz/discord/) if you have a specific use case that requires this functionality
+2. **Mode-based timing**: Use different [Modes](mode.md) to control deletion timing

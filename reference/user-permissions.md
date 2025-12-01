@@ -1,8 +1,8 @@
 ---
-title: user-permissions
-description: 
+title: User Permissions
+description: Details about the User Permissions
 published: true
-date: 2025-11-02T19:54:52.078Z
+date: 2025-11-29T17:02:48.679Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:54:36.252Z

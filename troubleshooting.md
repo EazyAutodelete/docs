@@ -1,8 +1,8 @@
 ---
-title: troubleshooting
+title: Troubleshooting
 description: 
 published: true
-date: 2025-11-02T19:50:45.178Z
+date: 2025-11-29T17:09:58.862Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:50:31.688Z

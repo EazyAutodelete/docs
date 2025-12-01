@@ -1,8 +1,8 @@
 ---
-title: voting-for-eazyautodelete
+title: Voting for Eazyautodelete
 description: 
 published: true
-date: 2025-11-02T19:51:04.889Z
+date: 2025-11-29T17:10:56.679Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:50:52.140Z

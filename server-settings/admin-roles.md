@@ -1,8 +1,8 @@
 ---
-title: admin-roles
-description: 
+title: Admin Roles
+description: Details on Admin Roles and Server-wide Permissions
 published: true
-date: 2025-11-02T19:55:27.347Z
+date: 2025-11-29T17:37:21.373Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:55:13.596Z

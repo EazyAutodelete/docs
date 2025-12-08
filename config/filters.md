@@ -2,7 +2,7 @@
 title: Filters
 description: The filters allow you to set exactly which messages are deleted.
 published: true
-date: 2025-12-08T09:01:25.298Z
+date: 2025-12-08T09:10:53.490Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:27.380Z
@@ -41,18 +41,41 @@ The following table lists all available message filters. Each filter has a uniqu
 | **1080** | System Message | Only delete system messages  |
 | **1081** | Not System Message | Only delete messages that are not system messages |
 
+### Attribute Filters
+
+| Filter ID | Filter Name | Explanation |
+| --------- | ----------- | ----------- |
+| **2000** | Has Attachment(s) | Delete the message **only if** it has one or more file attachments (images, videos, documents, etc.). |
+| **2001** | Does not have Attachment(s) | Delete the message **only if** it has NO attachments. Useful for keeping media while removing text-only messages. |
+| **2010** | Has Embed | Only delete messages with [embeds](https://discord.com/safety/using-webhooks-and-embeds) |
+| **2011** | Not Has Embed | Only delete messages without [embeds](https://discord.com/safety/using-webhooks-and-embeds) |
+| **2020** | Has a Thread | Delete the message **only if** a thread was started from this message. Useful for cleaning up messages that have spawned discussions. |
+| **2021** | Does not have a Thread | Delete the message **only if** NO thread was started from it. Helps preserve messages that have generated discussion threads. |
+| **2030** | Has Reaction | Only delete messages that have one or more [reactions](https://support.discord.com/hc/en-us/articles/12102061808663-Reactions-and-Super-Reactions-FAQ) |
+| **2031** | Not Has Reaction | Only delete messages that have no [reactions](https://support.discord.com/hc/en-us/articles/12102061808663-Reactions-and-Super-Reactions-FAQ) |
+| **2040** | Has Image | Only delete messages that have images |
+| **2041** | Has no Image | Only delete messages that have no image |
+| **2050** | Has Source Message | Only delete messages where the Source Message still exists (from Announcement Channels) |
+| **2051** | Without Source Message | Only delete messages where the Source Message was deleted (from Announcement Channels) |
+| **2060** | With Poll | Only delete messages that have a [Poll](https://support.discord.com/hc/en-us/articles/22163184112407-Polls-FAQ) |
+| **2061** | Without Poll | Only delete messages that have no [Poll](https://support.discord.com/hc/en-us/articles/22163184112407-Polls-FAQ) |
+
+### Content Filters
+
+| Filter ID | Filter Name | Explanation |
+| --------- | ----------- | ----------- |
+| **3000** | Contain Emoji(s) | Only delete messages that contain one or more emojis |
+| **3001** | Does not contain Emoji(s) | Delete the message **only if** it does NOT contain any emojis. Perfect for keeping emoji reactions visible while removing plain text. |
+| **3010** | Contain Mention | Only delete messages that contain one or more mentions |
+| **3011** | Not Contain Mention | Only delete messages that do not contain any mentions |
+| **3020** | Contains Link(s) | Delete the message **only if** it contains one or more URLs or hyperlinks. Useful for removing spam or promotional content. |
+| **3021** | Does not contain Link(s) | Delete the message **only if** it does NOT contain any URLs. Good for preserving reference links while cleaning up chat. |
+| **3040** | Contain Sticker | Only delete messages that contain stickers |
+| **3041** | Not contain Stickers | Only delete messages without stickers |
+| **3050** | Forwarded Message | Delete messages that contain a [forwarded messages](https://support.discord.com/hc/en-us/articles/24640649961367-Message-Forwarding) |
+| **3051** | No Forwarded Message | Delete messages that do not contain a [forwarded messages](https://support.discord.com/hc/en-us/articles/24640649961367-Message-Forwarding) |
 
 
-| **2** | Does not contain Emoji(s) | Delete the message **only if** it does NOT contain any emojis. Perfect for keeping emoji reactions visible while removing plain text. |
-| **3** | Contains Link(s) | Delete the message **only if** it contains one or more URLs or hyperlinks. Useful for removing spam or promotional content. |
-| **4** | Does not contain Link(s) | Delete the message **only if** it does NOT contain any URLs. Good for preserving reference links while cleaning up chat. |
-| **5** | Has Attachment(s) | Delete the message **only if** it has one or more file attachments (images, videos, documents, etc.). |
-| **6** | Does not have Attachment(s) | Delete the message **only if** it has NO attachments. Useful for keeping media while removing text-only messages. |
-| **7** | Is pinned | Delete the message **only if** it is currently pinned in the channel. Note: This requires special permissions. |
-| **8** | Is not pinned | Delete the message **only if** it is NOT pinned. This is the most common setting as you typically want to preserve pinned messages. |
-
-| **13** | Has a Thread | Delete the message **only if** a thread was started from this message. Useful for cleaning up messages that have spawned discussions. |
-| **14** | Does not have a Thread | Delete the message **only if** NO thread was started from it. Helps preserve messages that have generated discussion threads. |
 
 
 ## Using Filters Effectively

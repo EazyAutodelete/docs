@@ -73,7 +73,7 @@ These filters target messages based on their text content and special elements.
 | Filter ID | Filter Name | Explanation |
 | --------- | ----------- | ----------- |
 | **3000** | Contains Emoji | Delete messages that contain one or more [emojis](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) (standard or custom). Helps clean up emoji-heavy messages. |
-| **3001** | Contains No Emoji | Delete messages that do NOT contain any emojis. Perfect for preserving emoji reactions visible while removing plain text. |
+| **3001** | Contains No Emoji | Delete messages that do NOT contain any emojis. Perfect for keeping emoji reactions visible while removing plain text. |
 | **3010** | Contains Mention | Delete messages that contain one or more [@mentions](https://support.discord.com/hc/en-us/articles/211870018-How-do-I-mention-tag-notify-another-user) (users, roles, or channels). Useful for removing notification-heavy messages. |
 | **3011** | Contains No Mention | Delete messages that do NOT contain any mentions. Preserves messages with mentions while cleaning up general chat. |
 | **3020** | Contains Link | Delete messages that contain one or more URLs or hyperlinks. Useful for removing spam, promotional content, or external references. |

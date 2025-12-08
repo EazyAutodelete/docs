@@ -2,7 +2,7 @@
 title: Config
 description: 
 published: true
-date: 2025-12-08T08:49:59.692Z
+date: 2025-12-08T08:51:15.451Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T20:41:25.654Z
@@ -55,7 +55,7 @@ For a step-by-step guide on setting up your first config, see [Getting Started](
 
 These are the fundamental settings every config must have:
 
-#### **[⚙️ Modes](config/mode)**
+#### **[⚙️ Modes](/config/mode)**
 Determines HOW the deletion algorithm works:
 - **Mode 0**: Disabled (no deletion)
 - **Mode 1**: Delete each message after X time individually
@@ -64,7 +64,7 @@ Determines HOW the deletion algorithm works:
 - **Mode 4**: Limit the amount of messages in a channel. Keep the newest X messages and delete oldest when a new one is created.
 - **Mode 5**: Delete all messages daily at HH:mm.
 
-#### **[⌛ Limit](config/limit)**
+#### **[⌛ Limit](/config/limit)**
 Sets the time or count that triggers deletion:
 - For Modes 1 & 2: Time duration (10 seconds to 7 days)
 - For Mode 3: Message count (3 to 75 messages)
@@ -81,7 +81,7 @@ Sets the time or count that triggers deletion:
 
 Control exactly which messages are targeted for deletion:
 
-### **[🔎 Filters](config/filters.md)**
+### **[🔎 Filters](/config/filters)**
 Select from 20+ different message characteristics:
 - Content type (emojis, links, attachments)
 - Author type (bot vs human)
@@ -95,7 +95,7 @@ Select from 20+ different message characteristics:
 - Only delete unpinned messages (protect pins)
 - Only delete messages without links
 
-### **[🔂 Filter Behavior](config/filter-behavior)**
+### **[🔂 Filter Behavior](/config/filter-behavior)**
 Control how multiple filters work together:
 - **Match ONE** (OR logic): Delete if message matches ANY filter
 - **Match ALL** (AND logic): Delete only if message matches ALL filters
@@ -113,7 +113,7 @@ Fine-tune your configuration with these optional settings:
 
 ### Role-Based Filtering
 
-**[👥 Roles](config/roles)** - Control whose messages are affected:
+**[👥 Roles](/config/roles)** - Control whose messages are affected:
 - **Target roles**: Only delete from users with these roles
 - **Ignore roles**: Never delete from users with these roles
 - Up to 10 roles (20 with Premium)
@@ -128,18 +128,18 @@ Fine-tune your configuration with these optional settings:
 
 Control which messages in the timeline are processed:
 
-**[⏩ Delete messages after](config/delete-messages-after)** - Only delete messages sent after a specific message ID
+**[⏩ Delete messages after](/config/delete-messages-after)** - Only delete messages sent after a specific message ID
 - Preserves older conversation history
 - Creates a temporal starting point
 - Useful for phased rollout
 
-**[⏪ Delete messages before](config/delete-messages-before)** - ⚠️ Deprecated feature
+**[⏪ Delete messages before](/config/delete-messages-before)** - ⚠️ Deprecated feature
 - No longer available
 - Historical reference only
 
 ### Message Loading
 
-**[📡 Load old messages](config/load-old-messages.md)** - Decide whether to process existing messages:
+**[📡 Load old messages](/config/load-old-messages.md)** - Decide whether to process existing messages:
 - **Yes**: Process messages from the past 2 weeks
 - **No**: Only process new messages going forward
 - Critical decision when creating/modifying configs
@@ -286,11 +286,11 @@ Load old: Yes
 ## Related Documentation
 
 ### Configuration Details
-- [Modes](config/mode) - Detailed mode explanations
-- [Limit](config/limit) - Time and count specifications
-- [Filters](config/filters) - All available filters
-- [Filter Behavior](config/filter-behavior) - Filter logic
-- [Roles](config/roles) - Role-based filtering
+- [Modes](/config/mode) - Detailed mode explanations
+- [Limit](/config/limit) - Time and count specifications
+- [Filters](/config/filters) - All available filters
+- [Filter Behavior](/config/filter-behavior) - Filter logic
+- [Roles](/config/roles) - Role-based filtering
 
 ### Setup Guides
 - [Getting Started](getting-started) - Complete setup walkthrough
@@ -324,7 +324,7 @@ Configuring EazyAutodelete to perfectly match your needs can take some experimen
 - Read the detailed documentation for each setting
 - Test configurations in test channels
 - Join our [Support Server](https://eazyautodelete.xyz/discord/) for assistance
-- Check the [Troubleshooting Guide](troubleshooting)
+- Check the [Troubleshooting Guide](/troubleshooting)
 - Share your configs and learn from others
 
 Happy configuring! 🎉

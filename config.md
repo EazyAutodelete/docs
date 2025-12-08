@@ -2,7 +2,7 @@
 title: Config
 description: 
 published: true
-date: 2025-12-08T08:51:15.451Z
+date: 2025-12-08T08:51:56.561Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T20:41:25.654Z
@@ -293,12 +293,12 @@ Load old: Yes
 - [Roles](/config/roles) - Role-based filtering
 
 ### Setup Guides
-- [Getting Started](getting-started) - Complete setup walkthrough
-- [Add to Server](add-to-server) - Bot installation
-- [Share & Copy Configs](share-and-copy-configs) - Reuse configurations
+- [Getting Started](/getting-started) - Complete setup walkthrough
+- [Add to Server](/add-to-server) - Bot installation
+- [Share & Copy Configs](/share-and-copy-configs) - Reuse configurations
 
 ### Support
-- [Troubleshooting](troubleshooting) - Common issues
+- [Troubleshooting](/troubleshooting) - Common issues
 - [Support Server](https://eazyautodelete.xyz/discord/) - Get help
 
 ---

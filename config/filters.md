@@ -2,7 +2,7 @@
 title: Filters
 description: The filters allow you to set exactly which messages are deleted.
 published: true
-date: 2025-12-08T09:10:53.490Z
+date: 2025-12-08T10:58:30.513Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:27.380Z
@@ -26,8 +26,8 @@ These filters target messages based on their type and origin characteristics.
 
 | Filter ID | Filter Name | Explanation |
 | --------- | ----------- | ----------- |
-| **1000** | Is Pinned | Delete messages that are [pinned](https://support.discord.com/hc/en-us/articles/223209547-How-do-I-pin-messages). Useful for removing outdated pinned content. |
-| **1001** | Is Not Pinned | Delete messages that are NOT [pinned](https://support.discord.com/hc/en-us/articles/223209547-How-do-I-pin-messages). Use this to protect important pinned messages while cleaning up regular chat. |
+| **1000** | Is Pinned | Delete messages that are [pinned](https://support.discord.com/hc/en-us/articles/221421867-How-do-I-pin-messages). Useful for removing outdated pinned content. |
+| **1001** | Is Not Pinned | Delete messages that are NOT [pinned](https://support.discord.com/hc/en-us/articles/221421867-How-do-I-pin-messages). Use this to protect important pinned messages while cleaning up regular chat. |
 | **1010** | Was Published | Delete messages that were published to subscribed channels via [Announcement Channels](https://support.discord.com/hc/en-us/articles/360032008192-Announcement-Channels-). Only available in Announcement channels. |
 | **1011** | Was Not Published | Delete messages that were NOT published to subscribed channels. Only available in Announcement channels. Useful for removing unpublished drafts or announcements. |
 | **1020** | Is Crosspost | Delete messages that are [crossposts from another server](https://support.discord.com/hc/en-us/articles/360028384531-Channel-Following-FAQ) (received via Channel Following). Helps keep only your original content. |
@@ -42,7 +42,7 @@ These filters target messages based on their type and origin characteristics.
 | **1061** | Is Not Voice Message | Delete messages that are NOT [voice messages](https://support.discord.com/hc/en-us/articles/13091096725527-Voice-Messages). Preserves voice messages while removing other content. |
 | **1070** | Is Webhook | Delete messages from [Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks). Useful for removing automated webhook posts. |
 | **1071** | Is Not Webhook | Delete messages that are NOT from [Webhooks](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks). Preserves webhook content while removing regular messages. |
-| **1080** | Is System Message | Delete [system messages](https://support.discord.com/hc/en-us/articles/360035873592-Server-Audit-Log) (join messages, boosts, etc.). Keeps your channel free of automated system notifications. |
+| **1080** | Is System Message | Delete [system messages](https://discord.com/developers/docs/resources/message#message-object-message-flags) (join messages, boosts, etc.). Keeps your channel free of automated system notifications. |
 | **1081** | Is Not System Message | Delete messages that are NOT system messages. Preserves system notifications while removing user content. |
 
 ### Attribute Filters
@@ -51,7 +51,7 @@ These filters target messages based on their content attributes and attachments.
 
 | Filter ID | Filter Name | Explanation |
 | --------- | ----------- | ----------- |
-| **2000** | Has Attachment | Delete messages with one or more file [attachments](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID) (images, videos, documents, etc.). Useful for cleaning up media content. |
+| **2000** | Has Attachment | Delete messages with one or more file [attachments](https://support.discord.com/hc/en-us/articles/25444343291031-File-Attachments-FAQ) (images, videos, documents, etc.). Useful for cleaning up media content. |
 | **2001** | Has No Attachment | Delete messages with NO attachments. Useful for keeping media while removing text-only messages. |
 | **2010** | Has Embed | Delete messages with [embeds](https://discord.com/safety/using-webhooks-and-embeds). Useful for removing rich content and link previews. |
 | **2011** | Has No Embed | Delete messages without [embeds](https://discord.com/safety/using-webhooks-and-embeds). Preserves embedded content while removing plain messages. |
@@ -74,17 +74,14 @@ These filters target messages based on their text content and special elements.
 | --------- | ----------- | ----------- |
 | **3000** | Contains Emoji | Delete messages that contain one or more [emojis](https://support.discord.com/hc/en-us/articles/360036479811-Custom-Emojis) (standard or custom). Helps clean up emoji-heavy messages. |
 | **3001** | Contains No Emoji | Delete messages that do NOT contain any emojis. Perfect for keeping emoji reactions visible while removing plain text. |
-| **3010** | Contains Mention | Delete messages that contain one or more [@mentions](https://support.discord.com/hc/en-us/articles/211870018-How-do-I-mention-tag-notify-another-user) (users, roles, or channels). Useful for removing notification-heavy messages. |
+| **3010** | Contains Mention | Delete messages that contain one or more @mentions (users, roles, or channels). Useful for removing notification-heavy messages. |
 | **3011** | Contains No Mention | Delete messages that do NOT contain any mentions. Preserves messages with mentions while cleaning up general chat. |
 | **3020** | Contains Link | Delete messages that contain one or more URLs or hyperlinks. Useful for removing spam, promotional content, or external references. |
 | **3021** | Contains No Link | Delete messages that do NOT contain any URLs. Good for preserving reference links while cleaning up chat. |
-| **3040** | Contains Sticker | Delete messages that contain [stickers](https://support.discord.com/hc/en-us/articles/360056233374-Stickers-FAQ). Helps clean up sticker-based communication. |
-| **3041** | Contains No Sticker | Delete messages without [stickers](https://support.discord.com/hc/en-us/articles/360056233374-Stickers-FAQ). Preserves sticker messages while removing text content. |
+| **3040** | Contains Sticker | Delete messages that contain [stickers](https://support.discord.com/hc/en-us/articles/4403089981975-Custom-Stickers-FAQ). Helps clean up sticker-based communication. |
+| **3041** | Contains No Sticker | Delete messages without [stickers](https://support.discord.com/hc/en-us/articles/4403089981975-Custom-Stickers-FAQ). Preserves sticker messages while removing text content. |
 | **3050** | Has Forwarded Message | Delete messages that contain [forwarded messages](https://support.discord.com/hc/en-us/articles/24640649961367-Message-Forwarding). Useful for removing shared content from other conversations. |
 | **3051** | Has No Forwarded Message | Delete messages that do NOT contain [forwarded messages](https://support.discord.com/hc/en-us/articles/24640649961367-Message-Forwarding). Preserves forwarded content while removing original messages. |
-
-
-
 
 ## Using Filters Effectively
 

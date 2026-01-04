@@ -2,7 +2,7 @@
 title: Limit
 description: The limit with which the deletion algorithm should work.
 published: true
-date: 2026-01-04T18:49:11.534Z
+date: 2026-01-04T18:50:13.386Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:49.661Z
@@ -34,8 +34,6 @@ Limit is specified as a **time duration**.
 - `3d 6h 5m` Delete each message after 3 days, 6 hours and 5 minutes
 - `720m` Delete each message after 720 minutes = 12 hours
 
----
-
 # Mode 2 - Interval-Based Bulk Deletion  
 
 Limit is specified as a **time duration**.
@@ -48,8 +46,6 @@ Limit is specified as a **time duration**.
 - `4h` Delete all messages every 4 hours
 - `2d 1h` Delete all messages every 2 days and 1 hour = every 49 hours
 
----
-
 # Mode 3 - Message Count-Based Bulk Deletion
 
 Limit is specified as a **simple number** (message count).
@@ -61,8 +57,6 @@ Limit is specified as a **simple number** (message count).
 - `15` Delete all messages once 15 messages were sent in the channel
 - `100` Delete all messages after 100 messages in the channel
 
----
-
 # Mode 4 - Message Count-Based Single Deletion
 
 Limit is specified as a **simple number** (message count).
@@ -72,8 +66,6 @@ Limit is specified as a **simple number** (message count).
 
 **Examples:**
 - `20` Keep the last 20 message in the channel
-
----
 
 # Mode 5 - Delete Daily at
 

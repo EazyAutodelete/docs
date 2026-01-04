@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:39961/</loc>
-    <lastmod>2026-01-04T20:44:07+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:39961/posts/my-first-post/</loc>
-    <lastmod>2026-01-04T20:44:07+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:39961/posts/</loc>
-    <lastmod>2026-01-04T20:44:07+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:39961/categories/</loc>
-  </url><url>
-    <loc>http://localhost:39961/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>http://localhost:1313/config/roles/</loc></url><url><loc>http://localhost:1313/config/load-old-messages/</loc></url><url><loc>http://localhost:1313/server-settings/admin-roles/</loc></url><url><loc>http://localhost:1313/refernce/bot-permissions/</loc></url><url><loc>http://localhost:1313/</loc></url><url><loc>http://localhost:1313/refernce/languages/</loc></url><url><loc>http://localhost:1313/server-settings/mod-roles/</loc></url><url><loc>http://localhost:1313/refernce/user-permissions/</loc></url><url><loc>http://localhost:1313/config/limit/</loc></url><url><loc>http://localhost:1313/getting-started/</loc></url><url><loc>http://localhost:1313/add-to-server/</loc></url><url><loc>http://localhost:1313/config/filters/</loc></url><url><loc>http://localhost:1313/config/</loc></url><url><loc>http://localhost:1313/refernce/</loc></url><url><loc>http://localhost:1313/config/filter-behavior/</loc></url><url><loc>http://localhost:1313/server-settings/</loc></url><url><loc>http://localhost:1313/premium/</loc></url><url><loc>http://localhost:1313/troubleshooting/</loc></url><url><loc>http://localhost:1313/config/delete-messages-after/</loc></url><url><loc>http://localhost:1313/voting-for-eazyautodelete/</loc></url><url><loc>http://localhost:1313/categories/</loc></url><url><loc>http://localhost:1313/tags/</loc></url></urlset>

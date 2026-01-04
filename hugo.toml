@@ -1,4 +1,14 @@
 baseURL = 'https://docs.eazyautodelete.xyz/'
 languageCode = 'en-us'
 title = 'Docs | EazyAutodelete'
-theme = 'PaperMod'
+theme = 'hugo-book'
+enableGitInfo = true
+cleanDestinationDir = true
+
+[params]
+  BookTheme = 'dark'
+  BookSection = '*'
+  BookComments = false
+
+[minify]
+  minifyOutput = true

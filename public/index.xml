@@ -1,19 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Docs | EazyAutodelete</title>
-    <link>http://localhost:39961/</link>
-    <description>Recent content on Docs | EazyAutodelete</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 04 Jan 2026 20:44:07 +0100</lastBuildDate>
-    <atom:link href="http://localhost:39961/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:39961/posts/my-first-post/</link>
-      <pubDate>Sun, 04 Jan 2026 20:44:07 +0100</pubDate>
-      <guid>http://localhost:39961/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;test&#34;&gt;TEst&lt;/h2&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Docs | EazyAutodelete</title><link>http://localhost:1313/</link><description>Recent content in Docs on Docs | EazyAutodelete</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>👥 Roles</title><link>http://localhost:1313/config/roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/roles/</guid><description>&lt;h1 id="-roles"&gt;👥 Roles&lt;a class="anchor" href="#-roles"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Role filtering&lt;/strong&gt; allows you to control whose messages are affected by your deletion config based on their Discord roles. This is powerful for creating different deletion rules for different user groups in your server.&lt;/p&gt;
+&lt;p&gt;You can choose to either &lt;strong&gt;target specific roles&lt;/strong&gt; (only delete messages from users with these roles) or &lt;strong&gt;ignore specific roles&lt;/strong&gt; (delete messages from everyone except users with these roles).&lt;/p&gt;
+&lt;h2 id="how-role-filtering-works"&gt;How Role Filtering Works&lt;a class="anchor" href="#how-role-filtering-works"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;When you configure roles, you&amp;rsquo;re essentially creating a whitelist or blacklist for your deletion algorithm:&lt;/p&gt;</description></item><item><title>📡 Load Old Messages</title><link>http://localhost:1313/config/load-old-messages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/load-old-messages/</guid><description>&lt;h1 id="-load-old-messages"&gt;📡 Load old messages&lt;a class="anchor" href="#-load-old-messages"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;After creating or modifying a config, EazyAutodelete will ask you whether to load (and potentially delete) messages that were sent before the config was created or last modified. This is an important decision that affects how the bot processes your channel&amp;rsquo;s message history.&lt;/p&gt;
+&lt;h2 id="understanding-the-options"&gt;Understanding the Options&lt;a class="anchor" href="#understanding-the-options"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="yes-load-old-messages"&gt;Yes, load old messages&lt;a class="anchor" href="#yes-load-old-messages"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;The bot will process historical messages&lt;/strong&gt; sent before the config was created.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What happens:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The bot starts loading messages that were sent before your config was created or last modified&lt;/li&gt;
+&lt;li&gt;These historical messages will be evaluated against your filters and deletion rules&lt;/li&gt;
+&lt;li&gt;Due to Discord&amp;rsquo;s API limitations, the bot can only load and delete messages from the &lt;strong&gt;past 13.9583 days&lt;/strong&gt; (approximately 2 weeks)&lt;/li&gt;
+&lt;li&gt;Messages older than 2 weeks cannot be bulk-deleted by Discord&amp;rsquo;s API and will not be processed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Best for:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Admin Roles</title><link>http://localhost:1313/server-settings/admin-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/server-settings/admin-roles/</guid><description>&lt;h1 id="-administrator-roles"&gt;👑 Administrator Roles&lt;a class="anchor" href="#-administrator-roles"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Administrator Roles control which users have full access to EazyAutodelete&amp;rsquo;s configuration features. Users with an assigned administrator role can create, modify, and delete configs, as well as access all bot commands and features.&lt;/p&gt;
+&lt;h2 id="what-are-administrator-roles"&gt;What are Administrator Roles?&lt;a class="anchor" href="#what-are-administrator-roles"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Administrator Roles are Discord roles that you designate as having administrative privileges for EazyAutodelete. When a user has at least one of these roles, they gain the ability to manage the bot&amp;rsquo;s deletion configurations and settings.&lt;/p&gt;</description></item><item><title>Bot Permissions</title><link>http://localhost:1313/refernce/bot-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/refernce/bot-permissions/</guid><description>&lt;h1 id="bot-permissions"&gt;Bot Permissions&lt;a class="anchor" href="#bot-permissions"&gt;#&lt;/a&gt;&lt;/h1&gt;</description></item><item><title>Languages</title><link>http://localhost:1313/refernce/languages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/refernce/languages/</guid><description>&lt;h1 id="-languages"&gt;🔤 Languages&lt;a class="anchor" href="#-languages"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;EazyAutodelete is available in multiple languages, making it accessible to Discord communities around the world. Whether your server primarily speaks English, Spanish, German, French, or another language, we&amp;rsquo;re working to provide localized experiences.&lt;/p&gt;
+&lt;h2 id="available-languages"&gt;Available Languages&lt;a class="anchor" href="#available-languages"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;To see all currently supported languages and change your server&amp;rsquo;s language preference, use the &lt;code&gt;/language&lt;/code&gt; command in your Discord server.&lt;/p&gt;
+&lt;p&gt;The bot will display:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All available language options&lt;/li&gt;
+&lt;li&gt;Current language setting for your server&lt;/li&gt;
+&lt;li&gt;Instructions for changing the language&lt;/li&gt;
+&lt;li&gt;Translation completion status for each language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="language-coverage"&gt;Language Coverage&lt;a class="anchor" href="#language-coverage"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Different languages may have varying levels of translation completion:&lt;/p&gt;</description></item><item><title>Mod Roles</title><link>http://localhost:1313/server-settings/mod-roles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/server-settings/mod-roles/</guid><description>&lt;h1 id="-moderator-roles"&gt;🛡️ Moderator Roles&lt;a class="anchor" href="#-moderator-roles"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Moderator Roles grant users access to logging, debugging, and informational commands without giving them the ability to modify deletion configurations. This permission level is perfect for support staff and moderators who need to troubleshoot issues without the risk of accidentally changing deletion rules.&lt;/p&gt;
+&lt;h2 id="what-are-moderator-roles"&gt;What are Moderator Roles?&lt;a class="anchor" href="#what-are-moderator-roles"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Moderator Roles are Discord roles that you designate as having moderator-level access to EazyAutodelete. Users with these roles can view detailed information about bot operations and help troubleshoot problems, but cannot create or modify configs.&lt;/p&gt;</description></item><item><title>User Permissions</title><link>http://localhost:1313/refernce/user-permissions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/refernce/user-permissions/</guid><description>&lt;h1 id="-user-permissions"&gt;👑 User Permissions&lt;a class="anchor" href="#-user-permissions"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;EazyAutodelete uses 3 primary Permission Levels to control which commands users have access to.&lt;/p&gt;
+&lt;h2 id="1-all-users"&gt;1. All Users&lt;a class="anchor" href="#1-all-users"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This Permission Level is assigned to all commands that every user has access to. &lt;code&gt;/autodelete&lt;/code&gt;, &lt;code&gt;/help&lt;/code&gt; or &lt;code&gt;/premium&lt;/code&gt; are examples of these commands.&lt;/p&gt;
+&lt;h2 id="2-server-moderators"&gt;2. Server Moderators&lt;a class="anchor" href="#2-server-moderators"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This Permission Level is assigned to all commands regarding logging and general information about the setup of EazyAutodelete on a server.&lt;/p&gt;
+&lt;p&gt;Users are considered &amp;ldquo;Moderators&amp;rdquo; if they have at least one role from the server&amp;rsquo;s configured &lt;a href="../server-settings/mod-roles.md"&gt;&amp;ldquo;Moderator Roles&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>⌛ Limit</title><link>http://localhost:1313/config/limit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/limit/</guid><description>&lt;h1 id="-limit"&gt;⌛ Limit&lt;a class="anchor" href="#-limit"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;Limit&lt;/strong&gt; value is a crucial configuration setting that determines when messages are deleted. Depending on the &lt;a href="mode.md"&gt;Mode&lt;/a&gt; you&amp;rsquo;ve selected, the limit is interpreted either as a &lt;strong&gt;time duration&lt;/strong&gt; or as a &lt;strong&gt;number of messages&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;All ranges here are inclusive ranges. Meaning &amp;ldquo;&amp;gt; 10 seconds&amp;rdquo; allows you to also use 10 seconds as a limit.&lt;/p&gt;
+&lt;p&gt;The listed limits are the Free Limits available for anyone in as many configs as they wish.&lt;/p&gt;</description></item><item><title>🚀 Getting Started</title><link>http://localhost:1313/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/getting-started/</guid><description>&lt;h1 id="-getting-started"&gt;🚀 Getting Started&lt;a class="anchor" href="#-getting-started"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Welcome to EazyAutodelete! This guide will walk you through the process of setting up automatic message deletion in your Discord server. Whether you want to keep channels clean, manage temporary content, or enforce content policies, EazyAutodelete makes it easy.&lt;/p&gt;
+&lt;h2 id="step-1-inviting-the-bot"&gt;Step 1: Inviting the Bot&lt;a class="anchor" href="#step-1-inviting-the-bot"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Adding EazyAutodelete to your Discord server is quick and straightforward.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Follow our detailed guide:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;📖 &lt;strong&gt;&lt;a href="add-to-server.md"&gt;Add to Server Guide&lt;/a&gt;&lt;/strong&gt; - Step-by-step instructions for inviting and authorizing the bot&lt;/p&gt;</description></item><item><title>➕ Add to Server</title><link>http://localhost:1313/add-to-server/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/add-to-server/</guid><description>&lt;h1 id="-add-to-server"&gt;➕ Add to server&lt;a class="anchor" href="#-add-to-server"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Adding EazyAutodelete to your Discord server is a straightforward process that takes just a minute. Follow these steps to invite the bot and grant it the necessary permissions to function properly.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;a class="anchor" href="#prerequisites"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before you begin, make sure you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Administrator permission&lt;/strong&gt; or &lt;strong&gt;Manage Server permission&lt;/strong&gt; on the Discord server where you want to add the bot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you don&amp;rsquo;t have the required permissions, ask your server owner or an administrator to add the bot for you.&lt;/p&gt;</description></item><item><title>🔎 Filters</title><link>http://localhost:1313/config/filters/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/filters/</guid><description>&lt;h1 id="-filters"&gt;🔎 Filters&lt;a class="anchor" href="#-filters"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Filters give you precise control over which messages EazyAutodelete will target for deletion. Choose from a wide variety of filters to match exactly the type of content you want to remove from your channels.&lt;/p&gt;
+&lt;p&gt;Filters work seamlessly with all &lt;a href="http://localhost:1313/config/mode"&gt;Modes&lt;/a&gt; and can be combined to create sophisticated deletion rules. Use &lt;a href="http://localhost:1313/config/filter-behavior"&gt;Filter Behavior&lt;/a&gt; to control whether messages must match ALL filters (AND logic) or just ONE filter (OR logic) to be deleted.&lt;/p&gt;</description></item><item><title>🔂 Filter Behavior</title><link>http://localhost:1313/config/filter-behavior/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/filter-behavior/</guid><description>&lt;h1 id="-filter-behavior"&gt;🔂 Filter Behavior&lt;a class="anchor" href="#-filter-behavior"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Filter Behavior&lt;/strong&gt; determines how multiple filters work together when you have more than one filter activated. This setting controls the logical relationship between your selected filters.&lt;/p&gt;
+&lt;h2 id="two-matching-modes"&gt;Two Matching Modes&lt;a class="anchor" href="#two-matching-modes"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can choose between two different filter matching behaviors:&lt;/p&gt;
+&lt;h3 id="1-match-one-activated-filter-or-logic---default"&gt;1. Match ONE Activated Filter (OR Logic) - Default&lt;a class="anchor" href="#1-match-one-activated-filter-or-logic---default"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Delete messages that match &lt;strong&gt;AT LEAST ONE&lt;/strong&gt; of your activated &lt;a href="filters.md"&gt;filters&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How it works:&lt;/strong&gt; If a message meets the criteria of ANY single filter you&amp;rsquo;ve selected, it will be deleted. This is a more flexible and inclusive approach.&lt;/p&gt;</description></item><item><title>Premium</title><link>http://localhost:1313/premium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/premium/</guid><description>&lt;h1 id="-premium"&gt;✨ Premium&lt;a class="anchor" href="#-premium"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Upgrade to &lt;strong&gt;EazyAutodelete Premium&lt;/strong&gt; to unlock advanced features, higher limits, and priority support while supporting the continued development and maintenance of the bot.&lt;/p&gt;
+&lt;h2 id="why-subscribe-to-premium"&gt;Why Subscribe to Premium?&lt;a class="anchor" href="#why-subscribe-to-premium"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Your Premium subscription directly supports EazyAutodelete&amp;rsquo;s operation and development:&lt;/p&gt;
+&lt;h3 id="what-your-payment-funds"&gt;What Your Payment Funds:&lt;a class="anchor" href="#what-your-payment-funds"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;🖥️ &lt;strong&gt;Server Infrastructure&lt;/strong&gt; - Hosting costs for reliable 24/7 operation&lt;/li&gt;
+&lt;li&gt;🌐 &lt;strong&gt;Domain &amp;amp; Services&lt;/strong&gt; - Website hosting and related services&lt;/li&gt;
+&lt;li&gt;📜 &lt;strong&gt;Licenses &amp;amp; Tools&lt;/strong&gt; - Development tools and third-party services&lt;/li&gt;
+&lt;li&gt;🔧 &lt;strong&gt;Maintenance &amp;amp; Updates&lt;/strong&gt; - Bug fixes, new features, and improvements&lt;/li&gt;
+&lt;li&gt;💬 &lt;strong&gt;Support Services&lt;/strong&gt; - Dedicated support team and resources&lt;/li&gt;
+&lt;li&gt;📊 &lt;strong&gt;Scaling Costs&lt;/strong&gt; - Handling growth and increasing server demands&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By subscribing to Premium, you&amp;rsquo;re ensuring EazyAutodelete remains available, reliable, and constantly improving for everyone.&lt;/p&gt;</description></item><item><title>Troubleshooting</title><link>http://localhost:1313/troubleshooting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/troubleshooting/</guid><description>&lt;h1 id="-troubleshooting"&gt;🤬 Troubleshooting&lt;a class="anchor" href="#-troubleshooting"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Experiencing issues with EazyAutodelete? This guide covers the most common problems and their solutions. Most issues can be resolved by checking permissions, verifying your config settings, or using the &lt;code&gt;/debug&lt;/code&gt; command.&lt;/p&gt;
+&lt;h2 id="quick-issue-identifier"&gt;Quick Issue Identifier&lt;a class="anchor" href="#quick-issue-identifier"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;blockquote class='book-hint '&gt;
+&lt;p&gt;&lt;strong&gt;ℹ️ Common Issue: Configs Keep Resetting to Mode 0?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your configs automatically change back to Mode 0 (disabled), this means the bot has detected an error in your channel configuration. This is a safety feature to prevent incorrect operation. Follow all the steps below to identify and fix the issue.&lt;/p&gt;</description></item><item><title>⏩ Delete Messages After</title><link>http://localhost:1313/config/delete-messages-after/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/config/delete-messages-after/</guid><description>&lt;h1 id="-delete-messages-after"&gt;⏩ Delete messages after&lt;a class="anchor" href="#-delete-messages-after"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;&amp;ldquo;Delete messages after&amp;rdquo;&lt;/strong&gt; setting allows you to create a temporal boundary for your deletion config. Only messages sent &lt;strong&gt;AFTER&lt;/strong&gt; a specific message will be considered for deletion by your config.&lt;/p&gt;
+&lt;p&gt;This is useful when you want to preserve older conversation history while applying auto-deletion rules to newer messages.&lt;/p&gt;
+&lt;h2 id="how-to-configure"&gt;How to Configure&lt;a class="anchor" href="#how-to-configure"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Click the &lt;strong&gt;&amp;ldquo;Delete messages after&amp;rdquo;&lt;/strong&gt; button in your config settings&lt;/li&gt;
+&lt;li&gt;Enter the &lt;strong&gt;Message ID&lt;/strong&gt; of the boundary message&lt;/li&gt;
+&lt;li&gt;The bot will only delete messages that were sent after this message&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All messages sent before (and including) the specified message will be completely ignored by this config.&lt;/p&gt;</description></item><item><title>Voting for Eazyautodelete</title><link>http://localhost:1313/voting-for-eazyautodelete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://localhost:1313/voting-for-eazyautodelete/</guid><description>&lt;h1 id="-voting-for-eazyautodelete"&gt;🙌 Voting for EazyAutodelete&lt;a class="anchor" href="#-voting-for-eazyautodelete"&gt;#&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Love using EazyAutodelete? Show your support by voting for the bot on Top.GG! It&amp;rsquo;s &lt;strong&gt;completely free&lt;/strong&gt;, takes just a few seconds, and helps us grow the community by increasing the bot&amp;rsquo;s visibility.&lt;/p&gt;
+&lt;h2 id="why-vote"&gt;Why Vote?&lt;a class="anchor" href="#why-vote"&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="help-the-bot-grow"&gt;Help the Bot Grow&lt;a class="anchor" href="#help-the-bot-grow"&gt;#&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Increased Visibility:&lt;/strong&gt; Votes improve our ranking on Top.GG, making it easier for other server admins to discover EazyAutodelete.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Community Growth:&lt;/strong&gt; More users means more feedback, more feature requests, and a more vibrant support community.&lt;/p&gt;</description></item></channel></rss>

@@ -1,18 +1,8 @@
 ---
-title: "⌛ Limit"
-weight: 10
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
+title: "Limit"
+linkTitle: "⌛ Limit"
+weight: 15
 ---
-
-
-# ⌛ Limit
 
 The **Limit** value is a crucial configuration setting that determines when messages are deleted. Depending on the [Mode](mode.md) you've selected, the limit is interpreted either as a **time duration** or as a **number of messages**.
 

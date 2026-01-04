@@ -1,17 +1,8 @@
 ---
 title: "Voting for Eazyautodelete"
+linkTitle: "🙌 Voting for Eazyautodelete"
 weight: 95
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 🙌 Voting for EazyAutodelete
 
 Love using EazyAutodelete? Show your support by voting for the bot on Top.GG! It's **completely free**, takes just a few seconds, and helps us grow the community by increasing the bot's visibility.
 

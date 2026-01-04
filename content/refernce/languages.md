@@ -1,17 +1,8 @@
 ---
 title: "Languages"
+linkTitle: "🔤 Languages"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 🔤 Languages
 
 EazyAutodelete is available in multiple languages, making it accessible to Discord communities around the world. Whether your server primarily speaks English, Spanish, German, French, or another language, we're working to provide localized experiences.
 

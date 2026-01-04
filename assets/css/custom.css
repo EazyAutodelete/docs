@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Exo;
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.eot);
+  src: local(""),url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.eot?#iefix) format("embedded-opentype"),url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.woff2) format("woff2"),url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.woff) format("woff"),url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.ttf) format("truetype"),url(https://storage.eazyautodelete.xyz/public/fonts/exo-v20-latin-regular.svg#Exo) format("svg")
+}
+
+* {
+  font-family: Exo
+}

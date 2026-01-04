@@ -1,17 +1,8 @@
 ---
 title: "Troubleshooting"
+linkTitle: "🤬 Troubleshooting"
 weight: 70
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 🤬 Troubleshooting
 
 Experiencing issues with EazyAutodelete? This guide covers the most common problems and their solutions. Most issues can be resolved by checking permissions, verifying your config settings, or using the `/debug` command.
 

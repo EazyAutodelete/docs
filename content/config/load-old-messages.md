@@ -1,17 +1,8 @@
 ---
-title: "📡 Load Old Messages"
-weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
+linkTitle: "📡 Load Old Messages"
+title: "Load Old Messages"
+weight: 90
 ---
-
-# 📡 Load old messages
 
 After creating or modifying a config, EazyAutodelete will ask you whether to load (and potentially delete) messages that were sent before the config was created or last modified. This is an important decision that affects how the bot processes your channel's message history.
 

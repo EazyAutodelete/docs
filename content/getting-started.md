@@ -1,17 +1,8 @@
 ---
-title: "🚀 Getting Started"
+linkTitle: "🚀 Getting Started"
+title: "Getting Started with EazyAutodelete"
 weight: 10
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 🚀 Getting Started
 
 Welcome to EazyAutodelete! This guide will walk you through the process of setting up automatic message deletion in your Discord server. Whether you want to keep channels clean, manage temporary content, or enforce content policies, EazyAutodelete makes it easy.
 

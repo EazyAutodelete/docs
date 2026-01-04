@@ -1,14 +1,6 @@
 ---
 title: "🔂 Filter Behavior"
-weight: 50
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
+weight: 30
 ---
 
 

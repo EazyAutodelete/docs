@@ -1,18 +1,8 @@
 ---
-title: "➕ Add to Server"
+title: "Add EazyAutodelete to Your Server"
+linkTitle: "➕ Add to Server"
 weight: 20
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-
-# ➕ Add to server
 
 Adding EazyAutodelete to your Discord server is a straightforward process that takes just a minute. Follow these steps to invite the bot and grant it the necessary permissions to function properly.
 

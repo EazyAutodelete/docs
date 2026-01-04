@@ -1,17 +1,8 @@
 ---
 title: "User Permissions"
+linkTitle: "👑 User Permissions"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 👑 User Permissions
 
 EazyAutodelete uses 3 primary Permission Levels to control which commands users have access to.
 

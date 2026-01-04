@@ -1,17 +1,9 @@
 ---
-title: "Docs"
+title: "🤖 EazyAutodelete Docs"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
+cascade:
+  type: docs
 ---
-
-# 🤖 EazyAutodelete Docs
 
 With EazyAutodelete you can automatically delete messages. Choose from many different modes, filters and more to customize which messages are deleted.
 

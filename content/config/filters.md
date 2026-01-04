@@ -1,18 +1,8 @@
 ---
-title: "🔎 Filters"
+linkTitle: "🔎 Filters"
+title: "Filters"
 weight: 20
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-
-# 🔎 Filters
 
 Filters give you precise control over which messages EazyAutodelete will target for deletion. Choose from a wide variety of filters to match exactly the type of content you want to remove from your channels.
 

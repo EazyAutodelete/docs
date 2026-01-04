@@ -1,14 +1,158 @@
 baseURL = 'https://docs.eazyautodelete.xyz/'
 languageCode = 'en-us'
 title = 'Docs | EazyAutodelete'
-theme = 'hugo-book'
+theme = 'hextra'
 enableGitInfo = true
-cleanDestinationDir = true
+
+defaultContentLanguage = 'en'
+
+[outputs]
+home = ["html", "llms"]
+
+[menu]
+
+[[menu.main]]
+identifier = "website"
+name = "Website"
+pageRef = "https://eazyautodelete.xyz"
+weight = 1
+
+[[menu.main]]
+identifier = "dashboard"
+name = "Dashboard"
+pageRef = "https://dash.eazyautodelete.xyz"
+weight = 2
+
+[[menu.main]]
+identifier = "premium"
+name = "Premium"
+pageRef = "https://eazyautodelete.xyz/premium"
+weight = 3
+
+[[menu.main]]
+identifier = "status"
+name = "Status"
+pageRef = "https://eazyautodelete.xyz/status"
+weight = 4
+
+[[menu.main]]
+identifier = "discord"
+name = "Discord Server"
+pageRef = "https://eazyautodelete.xyz/discord"
+weight = 5
+
+[[menu.main]]
+identifier = "invite"
+name = "Bot Invite"
+pageRef = "https://eazyautodelete.xyz/invite"
+weight = 6
+
+
+[[menu.main]]
+name = "Search"
+weight = 8
+
+[menu.main.params]
+type = "search"
+
+[[menu.main]]
+name = "GitHub"
+weight = 9
+url = "https://github.com/eazyautodelete"
+
+[menu.main.params]
+icon = "github"
+
+
+[[menu.sidebar]]
+identifier = "links"
+name = "Links"
+weight = 1
+
+[menu.sidebar.params]
+type = "separator"
+
+
+[[menu.sidebar]]
+identifier = "website"
+name = "Website ↗"
+url = "https://eazyautodelete.xyz"
+weight = 1
+
+[[menu.sidebar]]
+identifier = "topgg"
+name = "Top.GG ↗"
+url = "https://top.gg/bot/746453621821931634/vote"
+weight = 2
+
+[[menu.sidebar]]
+identifier = "privacy"
+name = "Privacy Policy ↗"
+url = "https://eazyautodelete.xyz/privacy"
+weight = 3
+
+[[menu.sidebar]]
+identifier = "tos"
+name = "Terms of Service ↗"
+url = "https://eazyautodelete.xyz/terms"
+weight = 4
+
+[[menu.sidebar]]
+identifier = "legal"
+name = "Legal notice ↗"
+url = "https://eazyautodelete.xyz/impressum"
+weight = 5
+
 
 [params]
-  BookTheme = 'dark'
-  BookSection = '*'
-  BookComments = false
+description = "Best & most customizable Autodelete Bot for Discord. Completely free & in unlimited Channels."
+externalLinkDecoration = true
+displayUpdatedDate = true
+dateFormat = "January 2, 2006"
 
-[minify]
-  minifyOutput = true
+# [params.banner]
+# key = "announcement-v0.11"
+# message = """Hextra **v0.11** is here! 🎉 Disco"""
+
+[params.navbar]
+displayTitle = true
+displayLogo = true
+width = "wide"
+
+[params.navbar.logo]
+path = "https://storage.eazyautodelete.xyz/public/logos/logo-small.webp"
+
+[params.theme]
+default = "dark"
+displayToggle = false
+
+[params.footer]
+enable = true
+displayCopyright = true
+displayPoweredBy = true
+width = "normal"
+
+[params.search]
+enable = true
+type = "flexsearch"
+
+[params.search.flexsearch]
+index = "content"
+tokenize = "forward"
+
+[params.editURL]
+enable = true
+base = "https://github.com/eazyautodelete/docs/edit/main/content"
+
+[params.toc]
+displayTags = true
+
+[params.highlight.copy]
+enable = true
+display = "hover"
+
+[params.page]
+width = "wide"
+
+[params.comments]
+enable = false

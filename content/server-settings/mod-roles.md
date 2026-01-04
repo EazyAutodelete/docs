@@ -1,17 +1,8 @@
 ---
-title: "Mod Roles"
+title: "Moderator Roles"
+linkTitle: "🛡️ Moderator Roles"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 🛡️ Moderator Roles
 
 Moderator Roles grant users access to logging, debugging, and informational commands without giving them the ability to modify deletion configurations. This permission level is perfect for support staff and moderators who need to troubleshoot issues without the risk of accidentally changing deletion rules.
 

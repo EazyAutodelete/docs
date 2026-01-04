@@ -1,18 +1,8 @@
 ---
-title: "⏩ Delete Messages After"
-weight: 90
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
+linkTitle: "⏩ Delete Messages After"
+title: "Delete Messages After"
+weight: 50
 ---
-
-
-# ⏩ Delete messages after
 
 The **"Delete messages after"** setting allows you to create a temporal boundary for your deletion config. Only messages sent **AFTER** a specific message will be considered for deletion by your config.
 

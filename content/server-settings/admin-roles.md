@@ -1,17 +1,8 @@
 ---
-title: "Admin Roles"
+title: "Administrator Roles"
+linkTitle: "👑 Administrator Roles"
 weight: 1
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# 👑 Administrator Roles
 
 Administrator Roles control which users have full access to EazyAutodelete's configuration features. Users with an assigned administrator role can create, modify, and delete configs, as well as access all bot commands and features.
 

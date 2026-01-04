@@ -1,17 +1,8 @@
 ---
-title: "Premium"
+linkTitle: "✨ Premium"
+title: "EazyAutodelete Premium"
 weight: 60
-# bookFlatSection: false
-# bookToc: true
-# bookHidden: false
-# bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
-# bookHref: ''
-# bookIcon: ''
 ---
-
-# ✨ Premium
 
 Upgrade to **EazyAutodelete Premium** to unlock advanced features, higher limits, and priority support while supporting the continued development and maintenance of the bot.
 

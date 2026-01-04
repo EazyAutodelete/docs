@@ -2,7 +2,7 @@
 title: Mode
 description: How the deletion algorithm works
 published: true
-date: 2026-01-04T18:34:05.160Z
+date: 2026-01-04T18:49:47.715Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:53:25.143Z
@@ -16,13 +16,13 @@ Each mode works with all available [Filters](filters.md). In each mode, all mess
 
 > **⚠️ Warning:** To prevent unwanted behavior and ensure your config works as expected, you **must** set a new [Limit](limit.md) after changing the mode. Different modes interpret the limit value differently (as time or message count).
 
-## Mode: 0 - Disabled
+# Mode: 0 - Disabled
 
 **Disable the deletion algorithm completely.** When set to Mode 0, the bot will not delete any messages in the channel for this config. This is useful when you want to temporarily pause deletion without deleting your entire configuration.
 
 > **ℹ️ Info:** If the bot encounters a problem with your channel or your configs (such as missing permissions), it will automatically change all configs to Mode 0 as a safety mechanism. This prevents the bot from operating incorrectly or causing unintended deletions. Check the `/debug` command to see why your configs were disabled.
 
-## Mode: 1 - Time-Based Individual Deletion
+# Mode: 1 - Time-Based Individual Deletion
 
 **Delete each message individually after a configured amount of time has passed since it was sent.** This is the most commonly used mode and provides a "self-destructing messages" effect.
 
@@ -35,7 +35,7 @@ For example, if you set the limit to 30 seconds, each message will be deleted ex
 
 To change the time duration, see [Limit](limit.md).
 
-## Mode: 2 - Interval-Based Bulk Deletion
+# Mode: 2 - Interval-Based Bulk Deletion
 
 **Delete all qualifying messages at regular time intervals.** The bot will wait for the configured time period, then delete all messages that match your filters at once, then wait again and repeat.
 
@@ -51,7 +51,7 @@ Otherwise the bot will use the current time as the interval start and the first 
 
 To change the time interval, see [Limit](limit.md).
 
-## Mode: 3 - Message Count-Based Bulk Deletion
+# Mode: 3 - Message Count-Based Bulk Deletion
 
 **Delete all qualifying messages after a specific number of messages.** The bot counts matching messages and triggers a deletion when the count reaches your configured limit.
 
@@ -60,7 +60,7 @@ For example, if you set the limit to 10 messages, the bot will delete all matchi
 **Example Use cases:**
 - Limit spam in high-traffic channels by capping message count
 
-## Mode: 4 - Message Count-Based Single Deletion
+# Mode: 4 - Message Count-Based Single Deletion
 
 **Delete the oldest message after a specific number of messages**. The bot counts matching messages and deletes the oldest message as soon as the limit is reached.
 
@@ -70,7 +70,7 @@ For example, if you set the limit to 15 messages, the bot will delete the first 
 - Maintain a specific message history length
 - Keep chat channels showing only the most recent X messages
 
-## Mode: 5 - Delete Daily at
+# Mode: 5 - Delete Daily at
 
 **Delete all matched messages daily at a specific time.** The bot collects all matched messages and deletes them all daily when the configured time is reached.
 
@@ -82,7 +82,7 @@ When configuring this mode, please be aware that the time is entered in the UTC�
 
 ---
 
-## Choosing the Right Mode
+# Choosing the Right Mode
 
 - **Mode 1** is best when you want to delete messages individually based on their send timestamp
 - **Mode 2** is ideal when you want predictable cleanup times and bulk operations

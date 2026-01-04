@@ -2,7 +2,7 @@
 title: Limit
 description: The limit with which the deletion algorithm should work.
 published: true
-date: 2026-01-04T18:47:30.978Z
+date: 2026-01-04T18:48:39.890Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:52:49.661Z
@@ -21,9 +21,7 @@ You can see the broader limits for premium users [here](https://eazyautodelete.x
 
 > **ℹ️ Info:** For Mode 1, Mode 2 and Mode 5 (time-based modes): If a message gets edited and only meets your configured filters after the change, the deletion timer still uses the original send time of the message. This might lead to a message being deleted immediately or very quickly after being edited, which is intended behavior to prevent unpredictable the deletion rules.
 
-## Specifying the limit for different modes
-
-### Mode 1 - Time-Based Individual Deletion
+## Mode 1 - Time-Based Individual Deletion
 
 Limit is specified as a **time duration**.
 
@@ -38,7 +36,7 @@ Limit is specified as a **time duration**.
 
 ---
 
-### Mode 2 - Interval-Based Bulk Deletion  
+## Mode 2 - Interval-Based Bulk Deletion  
 
 Limit is specified as a **time duration**.
 
@@ -52,7 +50,7 @@ Limit is specified as a **time duration**.
 
 ---
 
-### Mode 3 - Message Count-Based Bulk Deletion
+## Mode 3 - Message Count-Based Bulk Deletion
 
 Limit is specified as a **simple number** (message count).
 
@@ -65,7 +63,7 @@ Limit is specified as a **simple number** (message count).
 
 ---
 
-### Mode 4 - Message Count-Based Single Deletion
+## Mode 4 - Message Count-Based Single Deletion
 
 Limit is specified as a **simple number** (message count).
 
@@ -75,7 +73,9 @@ Limit is specified as a **simple number** (message count).
 **Examples:**
 - `20` Keep the last 20 message in the channel
 
-### Mode 5 - Delete Daily at
+---
+
+## Mode 5 - Delete Daily at
 
 Limit is specified as a HH:mm 24 hour format **time**.
 The timezone used for the calculation is [UTC±0](https://en.wikipedia.org/wiki/UTC%2B00:00).
@@ -84,11 +84,9 @@ The timezone used for the calculation is [UTC±0](https://en.wikipedia.org/wiki/
 - `19:00` Delete all messages daily at UTC±0 19:00 / 7pm
 - `24:00` Delete all messages daily at UTC±0 midnight
 
-## How to specify durations
+---
 
-When setting a time duration for Mode 1 or Mode 2, you need to use specific time unit abbreviations. The bot understands various formats for flexibility.
-
-### Supported Time Units
+## Supported Time Units
 
 | Time Unit | Accepted Abbreviations | Example Usage |
 | --------- | ---------------------- | ------------- |

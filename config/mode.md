@@ -2,7 +2,7 @@
 title: Mode
 description: How the deletion algorithm works
 published: true
-date: 2025-11-29T17:07:51.172Z
+date: 2026-01-04T18:34:05.160Z
 tags: 
 editor: markdown
 dateCreated: 2025-11-02T19:53:25.143Z
@@ -10,7 +10,7 @@ dateCreated: 2025-11-02T19:53:25.143Z
 
 # ⚙️ Modes
 
-EazyAutodelete currently supports 4 different deletion modes, each designed for specific use cases. You can create multiple configs with different modes in different channels, or even multiple configs with different modes in the same channel (up to 3 configs per channel, or more with [Premium](/premium)).
+EazyAutodelete currently supports 5 (+1) different deletion modes, each designed for specific use cases. You can create multiple configs with different modes in different channels, or even multiple configs with different modes in the same channel (up to 3 configs per channel, or more with [Premium](/premium)).
 
 Each mode works with all available [Filters](filters.md). In each mode, all messages that do not meet the configured filters are completely ignored by the deletion algorithm.
 
@@ -18,7 +18,7 @@ Each mode works with all available [Filters](filters.md). In each mode, all mess
 
 ## Mode: 0 - Disabled
 
-**Disable the deletion algorithm completely.** When set to Mode 0, the bot will not delete any messages in the channel. This is useful when you want to temporarily pause deletion without deleting your entire configuration.
+**Disable the deletion algorithm completely.** When set to Mode 0, the bot will not delete any messages in the channel for this config. This is useful when you want to temporarily pause deletion without deleting your entire configuration.
 
 > **ℹ️ Info:** If the bot encounters a problem with your channel or your configs (such as missing permissions), it will automatically change all configs to Mode 0 as a safety mechanism. This prevents the bot from operating incorrectly or causing unintended deletions. Check the `/debug` command to see why your configs were disabled.
 
@@ -28,7 +28,7 @@ Each mode works with all available [Filters](filters.md). In each mode, all mess
 
 For example, if you set the limit to 30 seconds, each message will be deleted exactly 30 seconds after it was posted. This creates a rolling deletion effect where messages gradually disappear as they age.
 
-**Use cases:**
+**Example Use cases:**
 - Create temporary chat channels where messages auto-delete after a set time
 - Keep channels clean without permanently removing all conversation history at once
 - Allow users to read recent messages while automatically cleaning up older ones
@@ -41,44 +41,54 @@ To change the time duration, see [Limit](limit.md).
 
 For example, if you set the limit to 5 minutes, the bot will delete all matching messages every 5 minutes. This creates periodic "cleanup sweeps" of your channel.
 
-**Use cases:**
+In addition to the interval itself, you can also optionally provide the Date as YYYY-MM-DD and Time as HH:mm 24 hour format (both UTC±0) to set the time of when the interval is calculated.
+Otherwise the bot will use the current time as the interval start and the first deletion run will be at "now" + "interval".
+
+**Example Use cases:**
 - Regular channel cleanups at predictable intervals
-- Keeping announcement channels clean by clearing them every few hours
+- Keeping channels clean by clearing them every few hours
 - Bulk cleanup of spam or temporary content at set times
-- Less frequent deletion operations compared to Mode 1
 
 To change the time interval, see [Limit](limit.md).
 
 ## Mode: 3 - Message Count-Based Bulk Deletion
 
-**Delete all qualifying messages after a specific number of messages have been sent.** The bot counts matching messages and triggers a deletion when the count reaches your configured limit.
+**Delete all qualifying messages after a specific number of messages.** The bot counts matching messages and triggers a deletion when the count reaches your configured limit.
 
-For example, if you set the limit to 10 messages, the bot will delete all matching messages once 10 qualifying messages have been posted. This keeps your channel at a maximum message count.
+For example, if you set the limit to 10 messages, the bot will delete all matching messages once 10 qualifying messages have been sent.
 
-**Use cases:**
-- Maintain a specific message history length
-- Keep chat channels showing only the most recent X messages
+**Example Use cases:**
 - Limit spam in high-traffic channels by capping message count
 
-> **ℹ️ Info:** If your channel has one or more configs with Mode 3 activated, messages are not processed until all old messages are loaded from Discord. You can see the status as `Waiting to be loaded` when using the `/debug` command. This is necessary for accurate message counting.
+## Mode: 4 - Message Count-Based Single Deletion
 
-> **ℹ️ Info:** Due to Discord API rate limits and potential delays, the bot may delete slightly more messages than the exact limit at once. This is normal behavior to ensure consistent operation.
+**Delete the oldest message after a specific number of messages**. The bot counts matching messages and deletes the oldest message as soon as the limit is reached.
 
-> **⚠️ Warning:** Using Mode 3 with any other Mode in the same channel can lead to slightly increased delays for message deletion. The different counting mechanisms can interfere with each other.
+For example, if you set the limit to 15 messages, the bot will delete the first matched message once a 16th message was sent. This keeps your channel at a maximum message count.
 
-> **🚨 Danger:** It is **not recommended** to use 2 or more configs with Mode 3 in one channel. Multiple count-based configs will conflict with each other and may cause unpredictable deletion behavior.
+**Example Use cases:**
+- Maintain a specific message history length
+- Keep chat channels showing only the most recent X messages
 
-## Mode: 4 - Currently Unavailable
+## Mode: 5 - Delete Daily at
 
-Mode 4 is currently unavailable and disabled. We are working to reimplement it with improved functionality. Stay tuned for updates on our [Support Server](https://eazyautodelete.xyz/discord/).
+**Delete all matched messages daily at a specific time.** The bot collects all matched messages and deletes them all daily when the configured time is reached.
+
+When configuring this mode, please be aware that the time is entered in the UTC±0 timezone and HH:mm 24-hour format.
+
+**Example Use cases:**
+- Have a fresh channel every morning at 09:00
+- Delete all messages at 24:00 to only keep messages from that day
 
 ---
 
 ## Choosing the Right Mode
 
-- **Mode 1** is best for most use cases where you want a continuous, rolling deletion of older messages
+- **Mode 1** is best when you want to delete messages individually based on their send timestamp
 - **Mode 2** is ideal when you want predictable cleanup times and bulk operations
-- **Mode 3** is perfect for maintaining a specific message history length
+- **Mode 3** is perfect for restricting the amount of messages for a channel
+- **Mode 4** is perfect for maintaining a specific message history length
+- **Mode 5** is perfect for a daily clean up
 - **Mode 0** lets you pause deletion without losing your configuration
 
-Remember that you can combine different modes across multiple configs in the same channel (within the config limit) to create complex deletion rules!
+Remember that you can combine different modes across multiple configs in the same channel to create complex deletion rules!

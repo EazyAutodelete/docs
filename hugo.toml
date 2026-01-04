@@ -3,8 +3,11 @@ languageCode = 'en-us'
 title = 'Docs | EazyAutodelete'
 theme = 'hextra'
 enableGitInfo = true
-
+enableRobotsTXT = true
 defaultContentLanguage = 'en'
+
+[minify]
+  minifyOutput = true
 
 [outputs]
 home = ["html", "llms"]

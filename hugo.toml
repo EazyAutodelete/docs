@@ -1,0 +1,4 @@
+baseURL = 'https://docs.eazyautodelete.xyz/'
+languageCode = 'en-us'
+title = 'Docs | EazyAutodelete'
+theme = 'PaperMod'

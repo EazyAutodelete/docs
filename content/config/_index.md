@@ -141,7 +141,7 @@ Control which messages in the timeline are processed:
 1. **Navigate to your channel** where you want auto-deletion
 2. **Run `/setup`** command
 3. **Select "Create Config"** from the menu
-4. **Choose your mode** (1, 2, or 3)
+4. **Choose your mode** (1, 2, 3, 4, or 5)
 5. **Select filters** (optional but recommended)
 6. **Set filter behavior** (ALL or ONE)
 7. **Configure roles** (optional)
@@ -192,14 +192,11 @@ You can have up to 3 configs per channel (more with Premium), allowing sophistic
 - Use different modes for different purposes
 - Combine filters strategically
 - Test each config individually first
-- Document your multi-config strategy
 - Use `/debug` to monitor all configs
 
 ❌ **Don't:**
-- Use multiple Mode 3 configs in one channel (causes conflicts)
-- Create overlapping configs that fight each other
 - Forget which config does what
-- Make them too complex to understand
+- Select opposite filters (e.g., "Contains Emoji" + "No Emoji")
 
 ---
 
@@ -288,20 +285,6 @@ Load old: Yes
 ### Support
 - [Troubleshooting](/troubleshooting) - Common issues
 - [Support Server](https://eazyautodelete.xyz/discord/) - Get help
-
----
-
-## Quick Reference
-
-| Setting | Purpose | Options/Range |
-|---------|---------|---------------|
-| **Mode** | Deletion algorithm | 0, 1, 2, 3 |
-| **Limit** | When to delete | 10s - 7d OR 3-75 msgs |
-| **Filters** | What to delete | 20+ options |
-| **Filter Behavior** | Filter logic | ALL or ONE |
-| **Roles** | Whose messages | 10-20 roles |
-| **Time Boundary** | Message timeline | Message ID or 0 |
-| **Load Old Messages** | Process history | Yes or No |
 
 ---
 

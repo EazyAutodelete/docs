@@ -60,12 +60,6 @@ When you enable ignore roles, the bot will completely skip messages from users w
 
 ---
 
-## Configuration Interface
-
-![Role Selection Dropdown](.gitbook/assets/image%20(3).png)
-
-*Use the dropdown menu in the bot's configuration interface to select all roles you wish to be targeted or ignored. You can search for roles by name or scroll through the list.*
-
 ## Tips for Role Configuration
 
 1. **Plan your role structure**: Think about which user groups should be affected by auto-deletion before creating roles
@@ -73,9 +67,3 @@ When you enable ignore roles, the bot will completely skip messages from users w
 3. **Test with ignore roles first**: It's safer to start by protecting important roles rather than targeting specific ones
 4. **Combine with filters**: Role filtering works alongside all other filters for precise control
 5. **Regular reviews**: Periodically review your role configuration as your server grows and changes
-
-# 👥 Roles
-
-**Role filtering** allows you to control whose messages are affected by your deletion config based on their Discord roles. This is powerful for creating different deletion rules for different user groups in your server.
-
-You can choose to either **target specific roles** (only delete messages from users with these roles) or **ignore specific roles** (delete messages from everyone except users with these roles).

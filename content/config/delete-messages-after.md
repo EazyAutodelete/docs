@@ -1,6 +1,5 @@
 ---
-linkTitle: "⏩ Delete Messages After"
-title: "Delete Messages After"
+title: "⏩ Delete Messages After"
 weight: 50
 ---
 

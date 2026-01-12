@@ -1,6 +1,5 @@
 ---
-linkTitle: "📡 Load Old Messages"
-title: "Load Old Messages"
+title: "📡 Load Old Messages"
 weight: 90
 ---
 
@@ -39,7 +38,7 @@ After creating or modifying a config, EazyAutodelete will ask you whether to loa
 - The bot saves the current timestamp in your configuration
 - Only messages sent after this moment will be considered for deletion
 - All existing messages in the channel are permanently ignored by this config
-- This setting can be edited anytime using the [Delete messages after](delete-messages-after.md) feature
+- This setting can be edited anytime using the [Delete messages after](/config/delete-messages-after) feature
 
 **Best for:**
 - Preserving existing conversation history
@@ -64,12 +63,12 @@ When you choose to **not load old messages** for one config in a channel, this d
 
 1. **New channels**: Choose "Yes" to start with a clean slate
 2. **Active channels**: Choose "No" to preserve existing discussions
-3. **Testing**: Always choose "No" when testing new configs
+3. **Testing**: Test what works the best for your needs
 4. **Cleanup mode**: Choose "Yes" if you're trying to clean up spam or unwanted content
-5. **When uncertain**: Choose "No" - you can always manually clean up old messages separately
+5. **When uncertain**: Choose "No" - you can always manually clean up old messages separately or change this later
 
 ## Related Settings
 
-- [Delete messages after](delete-messages-after.md) - Set a specific message as the starting point for deletion
-- [Modes](mode.md) - Different modes may behave differently with old messages
-- Mode 3 specifically requires old messages to be loaded for accurate counting
+- [Delete messages after](/config/delete-messages-after) - Set a specific message as the starting point for deletion
+- [Modes](/config/modes) - Different modes may behave differently with old messages
+- Mode 3 and 4 specifically require old messages to be fully loaded for accurate counting when using "Yes". This might initially take longer in high-traffic channels.

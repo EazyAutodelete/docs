@@ -1,6 +1,5 @@
 ---
-linkTitle: "👥 Roles"
-title: "Roles"
+title: "👥 Roles"
 weight: 40
 ---
 

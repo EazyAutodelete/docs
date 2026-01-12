@@ -1,6 +1,5 @@
 ---
-title: "Moderator Roles"
-linkTitle: "🛡️ Moderator Roles"
+title: "🛡️ Moderator Roles"
 weight: 1
 ---
 
@@ -234,9 +233,9 @@ If a moderator proves capable and trustworthy, consider upgrading them to admini
 
 ## Related Documentation
 
-- [User Permissions](../reference/user-permissions.md) - Complete permission level breakdown
-- [Administrator Roles](admin-roles.md) - Setting up administrator access
-- [Server Settings](README.md) - Overview of server-wide settings
-- [Troubleshooting](../troubleshooting.md) - How to use `/debug` effectively
+- [User Permissions](/reference/user-permissions) - Complete permission level breakdown
+- [Administrator Roles](/server-settings/admin-roles) - Setting up administrator access
+- [Server Settings](/server-settings) - Overview of server-wide settings
+- [Troubleshooting](/troubleshooting) - How to use `/debug` effectively
 
 Need help with moderator roles? Visit our [Support Server](https://eazyautodelete.xyz/discord/)!

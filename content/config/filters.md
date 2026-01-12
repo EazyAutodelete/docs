@@ -1,12 +1,11 @@
 ---
-linkTitle: "🔎 Filters"
-title: "Filters"
+title: "🔎 Filters"
 weight: 20
 ---
 
 Filters give you precise control over which messages EazyAutodelete will target for deletion. Choose from a wide variety of filters to match exactly the type of content you want to remove from your channels.
 
-Filters work seamlessly with all [Modes](/config/mode) and can be combined to create sophisticated deletion rules. Use [Filter Behavior](/config/filter-behavior) to control whether messages must match ALL filters (AND logic) or just ONE filter (OR logic) to be deleted.
+Filters work seamlessly with all [Modes](/config/modes) and can be combined to create sophisticated deletion rules. Use [Filter Behavior](/config/filter-behavior) to control whether messages must match ALL filters (AND logic) or just ONE filter (OR logic) to be deleted.
 
 > **💡 Tip**: Start with simple filters and test in a dedicated channel before applying complex filter combinations to production channels.
 
@@ -83,7 +82,7 @@ These filters target messages based on their text content and special elements.
 
 1. **Start Simple**: Begin with just one or two filters and test the behavior before adding more complexity.
 
-2. **Combine Wisely**: Use [Filter Behavior](filter-behavior.md) to control whether messages need to match ALL filters (strict) or just ONE filter (flexible).
+2. **Combine Wisely**: Use [Filter Behavior](/config/filter-behavior) to control whether messages need to match ALL filters (strict) or just ONE filter (flexible).
 
 3. **Test First**: Create a test channel to verify your filter combination works as expected before applying to production channels.
 
@@ -93,6 +92,6 @@ These filters target messages based on their text content and special elements.
    - **Media-only cleanup**: Filter 2000 (Has Attachment) = Delete only messages with files
    - **Bot spam removal**: Filter 3020 (Contains Link) + Filter 1050 (Sent by Bot) = Remove bot messages with links
 
-5. **Role-Based Filtering**: Combine filters with [Roles](roles.md) to target or ignore specific user groups.
+5. **Role-Based Filtering**: Combine filters with [Roles](/config/roles) to target or ignore specific user groups.
 
-See also: [Filter Behavior](filter-behavior.md) to learn how to control filter matching logic.
+See also: [Filter Behavior](/config/filter-behavior) to learn how to control filter matching logic.

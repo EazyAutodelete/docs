@@ -1,0 +1,23 @@
+---
+date: '2026-01-12T20:12:35+01:00'
+title: 'Share and Copy Configs'
+linkTitle: '🌐 Share & copy Configs'
+---
+
+EazyAutodelete allows you to easily share and copy deletion configurations (configs) between different channels and servers. This feature is especially useful for maintaining consistent message deletion policies across multiple communities or channels.
+
+## Sharing Configs
+
+You can publicly share your configs. To do so, run `/share <configId>`. You will receive a share code as well as an URL which you can share with others.
+
+Everyone who has access to your Share Code or Share URL can copy your config to their own channels.
+
+## Copying Configs
+
+You can copy publicly shared configs with a share code or a share URL, or copy an existing config within your server.
+
+When copying a config within your server to another channel, you don't need to share it first. Just enter the config ID.
+
+Run `/copy <shareId / shareURL, configId*>` to copy a config to the channel you run the command in.
+
+* Providing a config ID will only work if the config is in the same server you run the command in.

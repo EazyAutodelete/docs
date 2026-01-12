@@ -24,6 +24,8 @@ Experiencing issues with EazyAutodelete? This guide covers the most common probl
 2. **Read Message History** - Bot needs to read past messages for deletion
 3. **Manage Messages** - Bot needs this permission to actually delete messages
 
+For certain features or channel types, additional permissions may be required. Refer to the **[Bot Permissions Documentation](/reference/bot-permissions)** for more details.
+
 **All three permissions are mandatory.** Missing even one will cause the bot to malfunction.
 
 ### How to Check Permissions:
@@ -57,6 +59,8 @@ Run `/setup` and review each setting:
   - Mode 1 = Delete each message after time
   - Mode 2 = Delete all messages at intervals
   - Mode 3 = Delete messages after message count
+  - Mode 4 = Delete oldest messages when limit exceeded
+  - Mode 5 = Delete all messages daily at
   
 - [ ] **Filters** - Are the filters configured correctly?
   - Review each active filter
@@ -94,10 +98,10 @@ Run `/setup` and review each setting:
 5. **Forgetting the 60-second delay**: Changes take 1 minute to apply
 
 **Need help understanding a setting?** Check our detailed documentation:
-- [Modes Documentation](config/mode.md)
-- [Filters Documentation](config/filters.md)
-- [Limit Documentation](config/limit.md)
-- [Roles Documentation](config/roles.md)
+- [Modes Documentation](/config/modes)
+- [Filters Documentation](/config/filters)
+- [Limit Documentation](/config/limit)
+- [Roles Documentation](/config/roles)
 
 ---
 
@@ -111,8 +115,6 @@ The `/debug` command is your best troubleshooting tool. It provides crucial info
 - **Active configs** - All configs in the channel and their current state
 - **Bot status** - What the bot is currently doing
 - **Loading status** - Whether old messages are being loaded
-- **Error messages** - Any detected problems with permissions or configuration
-- **Processing queue** - How many messages are waiting to be processed
 
 ### How to Use `/debug`:
 
@@ -121,15 +123,7 @@ The `/debug` command is your best troubleshooting tool. It provides crucial info
 3. Look for status messages like:
    - "Waiting to be loaded" - Old messages are still being fetched
    - "Permission error" - Bot is missing required permissions
-   - "Mode 0" - Config is disabled (check why)
-   - "Processing X messages" - Bot is actively working
-
-### Common `/debug` Indicators:
-
-- **"Waiting to be loaded"**: Normal for Mode 3 or when loading old messages. Be patient.
-- **"Mode 0 - Disabled"**: Something went wrong. Check permissions and config.
-- **"No configs found"**: You haven't created a config yet. Use `/setup`.
-- **"Permission denied"**: Missing one of the three required permissions.
+   - "Queue Length" - Number of messages waiting to be processed
 
 ---
 
@@ -160,13 +154,10 @@ The `/debug` command is your best troubleshooting tool. It provides crucial info
 ### Bot Deleting Too Slowly
 
 **Possible causes:**
-1. Discord API rate limits (normal behavior)
-2. High server load
-3. Multiple Mode 3 configs in one channel
-4. Very active channel with many messages
-5. Still loading historical messages
+1. Very active channel with many messages
+2. Still loading historical messages
 
-**Solution:** This is often normal behavior due to Discord's rate limits. Mode 1 is typically faster than Mode 2 or 3.
+**Solution:** Mode 2 may be better for high-traffic channels. Check `/debug` for loading status. Check with support if delays persist.
 
 ### Bot Deleted Pinned Messages
 
@@ -174,7 +165,7 @@ The `/debug` command is your best troubleshooting tool. It provides crucial info
 1. Filter "Is pinned" is selected instead of "Is not pinned"
 2. Message was unpinned before deletion timer expired
 
-**Solution:** Always use Filter 8 "Is not pinned" to protect pinned messages.
+**Solution:** Always use Filter "Is not pinned" to protect pinned messages.
 
 ---
 
@@ -195,20 +186,12 @@ Visit our **[Support Server](https://eazyautodelete.xyz/discord/)** for personal
 
 Our support team and community members are ready to help you get EazyAutodelete working perfectly!
 
-### Common Questions in Support
-
-- "Why is my config in Mode 0?" → Check permissions
-- "Messages aren't being deleted" → Verify filters and limit settings
-- "How do I protect pinned messages?" → Use Filter 8 "Is not pinned"
-- "Can I delete messages older than 2 weeks?" → No, Discord API limitation
-- "Why is there a 60-second delay?" → Prevents constant bot restarts during configuration
-
 ---
 
 ## Helpful Resources
 
-- [Getting Started Guide](getting-started.md) - Complete setup walkthrough
-- [Configuration Documentation](config/) - Detailed config explanations
-- [User Permissions](reference/user-permissions.md) - Who can use which commands
+- [Getting Started Guide](/getting-started) - Complete setup walkthrough
+- [Configuration Documentation](/config/) - Detailed config explanations
+- [User Permissions](/reference/user-permissions) - Who can use which commands
 - [Support Server](https://eazyautodelete.xyz/discord/) - Get real-time help
 

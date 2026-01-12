@@ -1,9 +1,8 @@
 ---
-title: "Server Settings"
+linkTitle: "Server Settings"
+title: "🛠️ Server Settings"
 weight: 50
 ---
-
-# 🛠️ Server Settings
 
 Server Settings allow server administrators to configure EazyAutodelete's behavior at the server level, including who has permission to use various bot commands. These settings apply server-wide and affect how users interact with the bot across all channels.
 
@@ -11,8 +10,8 @@ Server Settings allow server administrators to configure EazyAutodelete's behavi
 
 ### Permission Role Configuration
 
-* **[Administrator Roles](admin-roles.md)** - Configure which roles can create and modify deletion configs and use administrative commands
-* **[Moderator Roles](mod-roles.md)** - Configure which roles can access moderation and logging commands without full admin privileges
+* **[Administrator Roles](/server-settings/admin-roles)** - Configure which roles can create and modify deletion configs and use administrative commands
+* **[Moderator Roles](/server-settings/mod-roles)** - Configure which roles can access moderation and logging commands without full admin privileges
 
 ---
 
@@ -88,8 +87,8 @@ To configure permission roles for EazyAutodelete:
 
 ## Related Documentation
 
-- [User Permissions](../reference/user-permissions.md) - Detailed breakdown of permission levels
-- [Getting Started](../getting-started.md) - Initial bot setup
-- [Troubleshooting](../troubleshooting.md) - Permission-related issues
+- [User Permissions](/reference/user-permissions) - Detailed breakdown of permission levels
+- [Getting Started](/getting-started) - Initial bot setup
+- [Troubleshooting](/troubleshooting) - Permission-related issues
 
 Need assistance? Visit our [Support Server](https://eazyautodelete.xyz/discord/) for help!

@@ -12,7 +12,7 @@ Adding EazyAutodelete to your Discord server is quick and straightforward.
 
 **Follow our detailed guide:**
 
-📖 **[Add to Server Guide](add-to-server.md)** - Step-by-step instructions for inviting and authorizing the bot
+📖 **[Add to Server Guide](/add-to-server)** - Step-by-step instructions for inviting and authorizing the bot
 
 **Quick summary:**
 1. Visit [eazyautodelete.xyz/invite](https://eazyautodelete.xyz/invite)
@@ -78,7 +78,7 @@ Now let's create a config to start automatically deleting messages!
  	- *Example*: Delete all messages at 10:00 UTC.
   - *Best for*: Clean up yesterday's mess and have a fresh start for a new day
 
-**Learn more:** [Modes Documentation](config/mode.md)
+**Learn more:** [Modes Documentation](/config/modes)
 
 ### Select Filters
 
@@ -99,7 +99,7 @@ Choose as many filters as you need to match your use case:
 - Delete only messages with links: Select "Contains Link(s)"
 - Delete everything except pinned: Select "Is not pinned"
 
-**Learn more:** [Filters Documentation](config/filters.md)
+**Learn more:** [Filters Documentation](/config/filters)
 
 ### Set Additional Options
 
@@ -116,7 +116,7 @@ Choose as many filters as you need to match your use case:
 
 Examples: `30s`, `5min`, `2hrs`, `1day 6hr`
 
-**Learn more:** [Limit Documentation](config/limit.md)
+**Learn more:** [Limit Documentation](/config/limit)
 
 ### Load Old Messages
 
@@ -135,7 +135,7 @@ Examples: `30s`, `5min`, `2hrs`, `1day 6hr`
 - Testing a new config safely
 - Unsure about the settings
 
-**Learn more:** [Load Old Messages Documentation](config/load-old-messages.md)
+**Learn more:** [Load Old Messages Documentation](/config/load-old-messages)
 
 ---
 
@@ -157,16 +157,16 @@ After completing the setup:
 
 For more control over message deletion, explore these advanced features:
 
-- **[Configuration Guide](config/)** - Deep dive into all configuration options
-- **[Share & Copy Configs](share-and-copy-configs.md)** - Reuse configs across channels and servers
-- **[Server Settings](server-settings/)** - Configure bot permissions and roles
-- **[User Permissions](reference/user-permissions.md)** - Understand who can use which commands
+- **[Configuration Guide](/config/)** - Deep dive into all configuration options
+- **[Share & Copy Configs](/share-and-copy-configs)** - Reuse configs across channels and servers
+- **[Server Settings](/server-settings/)** - Configure bot permissions and roles
+- **[User Permissions](/reference/user-permissions)** - Understand who can use which commands
 
 ### Need Help?
 
-- **[Troubleshooting Guide](troubleshooting.md)** - Common issues and solutions
+- **[Troubleshooting Guide](/troubleshooting)** - Common issues and solutions
 - **[Support Server](https://eazyautodelete.xyz/discord/)** - Get help from our community
-- **[Premium Features](premium.md)** - Unlock advanced capabilities
+- **[Premium Features](/premium)** - Unlock advanced capabilities
 
 ### Useful Commands
 

@@ -62,10 +62,10 @@ By subscribing to Premium, you're ensuring EazyAutodelete remains available, rel
 
 **Why it matters:** Stay ahead with the latest features and help guide development
 
-### Premium Badge
+### Premium Role
 
 **Premium Users:**
-- Special badge/role on support server
+- Special role on support server
 - Recognition as a supporter
 - Access to premium-exclusive channels
 
@@ -73,44 +73,7 @@ By subscribing to Premium, you're ensuring EazyAutodelete remains available, rel
 
 ---
 
-## Detailed Feature Comparison
-
-| Feature | Standard | Premium |
-|---------|----------|---------|
-| Configs per channel | Up to 3 | More than 3 |
-| Role filters | Up to 10 roles | Up to 20 roles |
-| All deletion modes | ✅ | ✅ |
-| All filters | ✅ | ✅ |
-| Basic support | ✅ | ✅ |
-| Priority support | ❌ | ✅ |
-| Early feature access | ❌ | ✅ |
-| Premium badge | ❌ | ✅ |
-| Support development | ❌ | ✅ |
-
----
-
-## How to Subscribe
-
-Ready to upgrade to Premium? Visit our website for subscription options:
-
-🌟 **[Subscribe to Premium](https://eazyautodelete.xyz/premium)**
-
-### Subscription Options:
-
-Check the website for current pricing and subscription tiers. We offer flexible plans to suit different needs and budgets.
-
-### Payment Methods:
-
-- Credit/Debit Cards
-- PayPal
-- And other payment methods (see website)
-
-### Subscription Management:
-
-- Easy cancellation anytime
-- Automatic renewal (can be disabled)
-- Instant activation upon payment
-- Manage subscription through your account
+Check [eazyautodelete.xyz/faq#what-are-the-limit](https://eazyautodelete.xyz/faq#what-are-the-limits) for the most up-to-date feature list and limits.
 
 ---
 
@@ -128,18 +91,18 @@ A: Yes, you can cancel anytime. Your benefits continue until the end of your bil
 A: No! EazyAutodelete's core features are completely free. Premium adds enhanced limits and perks.
 
 **Q: Can I upgrade/downgrade my plan?**
-A: Yes, subscription changes can be made through your account dashboard.
+A: Yes, subscription changes can be made through your Discord Account Settings.
 
 ### Feature Questions
 
 **Q: If I cancel Premium, what happens to my extra configs?**
-A: Existing configs continue working, but you won't be able to create new ones beyond the standard limit.
+A: Existing configs will will be stopped if they exceed free limits. You can delete or modify them to fit within free limits.
 
 **Q: Does Premium work across all servers?**
-A: Premium is tied to your Discord account and works in any server where you use EazyAutodelete.
+A: Premium is tied to your Discord account and works in the one server you subscribe in.
 
 **Q: Can I share Premium with my server?**
-A: Premium is per-user, not per-server. Each user who wants Premium features needs their own subscription.
+A: Premium is per-server. The whole server benefits from the subscription.
 
 ### Billing Questions
 
@@ -163,7 +126,7 @@ Can't subscribe to Premium but want to help? Here are other ways to support:
 **🗳️ Vote for the Bot**
 - Vote on [Top.GG](https://top.gg/bot/746453621821931634/vote)
 - Boost visibility and help others discover EazyAutodelete
-- See [Voting Guide](voting-for-eazyautodelete.md)
+- See [Voting Guide](/voting-for-eazyautodelete)
 
 **⭐ Leave a Review**
 - Share your experience on [Top.GG](https://top.gg/bot/746453621821931634)
@@ -182,7 +145,7 @@ Can't subscribe to Premium but want to help? Here are other ways to support:
 
 **🌐 Contribute to Translations**
 - Help translate the bot into more languages
-- See [Languages Documentation](languages.md)
+- See [Languages Documentation](/reference/languages) for details
 
 ---
 
@@ -207,17 +170,11 @@ Interested in partnering with EazyAutodelete? Contact us to discuss collaboratio
 **Questions about Premium?**
 - Visit our [Support Server](https://eazyautodelete.xyz/discord/)
 - Check the Premium FAQ on the website
-- Contact support through the website
 
 **Technical Issues with Premium:**
 - Report in Premium support channels on our Discord
 - Include your subscription ID and details
 - Our team will assist you promptly
-
-**Billing Support:**
-- Contact through the billing portal
-- Email support (check website for email)
-- Response within 24-48 hours
 
 ---
 

@@ -142,7 +142,7 @@ Now that EazyAutodelete is on your server, you're ready to configure it!
 
 Jump straight into configuring automatic message deletion:
 
-📖 **[Getting Started Guide](getting-started.md)** - Complete setup walkthrough
+📖 **[Getting Started Guide](/getting-started)** - Complete setup walkthrough
 
 **Quick start:**
 1. Go to a channel where you want auto-deletion
@@ -154,24 +154,24 @@ Jump straight into configuring automatic message deletion:
 
 Learn about all the available features:
 
-- **[Configuration Options](config/)** - Deep dive into all settings
-- **[Modes](config/mode)** - Different deletion algorithms
-- **[Filters](config/filters)** - Targeting specific message types
-- **[Roles](config/roles)** - Role-based deletion rules
+- **[Configuration Options](/config/)** - Deep dive into all settings
+- **[Modes](/config/modes)** - Different deletion algorithms
+- **[Filters](/config/filters)** - Targeting specific message types
+- **[Roles](/config/roles)** - Role-based deletion rules
 
 ### 3. Configure Server Settings
 
 Set up permission roles for your server:
 
-- **[Server Settings](server-settings/)** - Server-wide configuration
-- **[Administrator Roles](server-settings/admin-roles)** - Who can configure the bot
-- **[Moderator Roles](server-settings/mod-roles)** - Who can view logs and debug info
+- **[Server Settings](/server-settings/)** - Server-wide configuration
+- **[Administrator Roles](/server-settings/admin-roles)** - Who can configure the bot
+- **[Moderator Roles](/server-settings/mod-roles)** - Who can view logs and debug info
 
 ### 4. Get Support
 
 Need help or have questions?
 
-- **[Troubleshooting Guide](troubleshooting)** - Common issues and solutions
+- **[Troubleshooting Guide](/troubleshooting)** - Common issues and solutions
 - **[Support Server](https://eazyautodelete.xyz/discord/)** - Join our community
 - **[FAQ](https://eazyautodelete.xyz/faq)** - Frequently asked questions
 

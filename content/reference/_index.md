@@ -1,23 +1,20 @@
 ---
-title: "Refernce"
+linkTitle: "Reference"
+title: "💬 Reference"
 weight: 40
 ---
-
-# 💬 Reference
 
 This reference section provides detailed explanations for common concepts, terminology, and features used within EazyAutodelete. Use these documents to deepen your understanding of how the bot works and how to use advanced features effectively.
 
 ## Reference Documentation
 
-### User & Permission Management
+* **[👑 User Permissions](/reference/user-permissions)** - Understanding permission levels and who can use which commands in your server
 
-* **[👑 User Permissions](user-permissions.md)** - Understanding permission levels and who can use which commands in your server
+* **[🤖 Bot Permissions](/reference/bot-permissions)** - Overview of the permissions EazyAutodelete needs to function properly in your server
 
-### Message Processing
+* **[🔤 Languages](/reference/languages)** - Information about supported languages and localization options
 
-* **[🔙 Load old Messages](load-old-messages.md)** - Detailed explanation of how the bot handles historical messages and what "loading old messages" means
-
----
+* **[🔙 Load old Messages](/reference/load-old-messages)** - Detailed explanation of how the bot handles historical messages and what "loading old messages" means
 
 ## Quick Reference Guide
 
@@ -46,8 +43,8 @@ This reference section provides detailed explanations for common concepts, termi
 ## Additional Resources
 
 For more detailed configuration guides, see:
-- [Configuration Overview](../config/) - Complete guide to all config options
-- [Getting Started](../getting-started.md) - Step-by-step setup instructions
-- [Troubleshooting](../troubleshooting.md) - Common issues and solutions
+- [Configuration Overview](/config/) - Complete guide to all config options
+- [Getting Started](/getting-started) - Step-by-step setup instructions
+- [Troubleshooting](/troubleshooting) - Common issues and solutions
 
 Need help? Join our [Support Server](https://eazyautodelete.xyz/discord/) for assistance!

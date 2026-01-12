@@ -1,10 +1,8 @@
 ---
-title: "Config"
+linkTitle: "Config"
+title: "🚮 Message Delete Configuration"
 weight: 30
 ---
-
-
-# 🚮 Message Delete Configuration
 
 EazyAutodelete provides powerful and flexible configuration options that allow you to customize the deletion algorithm precisely to your needs. Whether you want simple time-based deletion or complex multi-filter rules, you have complete control over how messages are handled in your channels.
 
@@ -14,24 +12,22 @@ Below you'll find all available configuration settings for customizing message d
 
 ### Core Settings
 
-* **[⚙️ Modes](mode)** - Choose how the deletion algorithm works (delete messages after time, delete all at intervals, etc.)
-* **[⌛ Limit](limit)** - Set the time duration or message count that triggers deletion
-* **[🔎 Filters](filters)** - Select which types of messages to delete (with emojis, with links, bot messages, etc.)
-* **[🔂 Filter Behavior](filter-behavior)** - Control whether messages must match ALL filters or just ONE filter
+* **[⚙️ Modes](/config/modes)** - Choose how the deletion algorithm works (delete messages after time, delete all at intervals, etc.)
+* **[⌛ Limit](/config/limit)** - Set the time duration or message count that triggers deletion
+* **[🔎 Filters](/config/filters)** - Select which types of messages to delete (with emojis, with links, bot messages, etc.)
+* **[🔂 Filter Behavior](/config/filter-behavior)** - Control whether messages must match ALL filters or just ONE filter
 
 ### Time-Based Filtering
 
-* **[⏪ Delete messages before](delete-messages-before)** - Only delete messages sent before a specific message (deprecated)
-* **[⏩ Delete messages after](delete-messages-after)** - Only delete messages sent after a specific message
+* **[⏩ Delete messages after](/config/delete-messages-after)** - Only delete messages sent after a specific message
 
 ### Role-Based Configuration
 
-* **[👥 Roles](roles)** - Target or ignore messages from users with specific roles
+* **[👥 Roles](/config/roles)** - Target or ignore messages from users with specific roles
 
 ### Message Loading
 
-* **[📡 Load old messages](load-old-messages)** - Choose whether to delete messages sent before the config was created
-
+* **[📡 Load old messages](/config/load-old-messages)** - Choose whether to delete messages sent before the config was created
 > **ℹ️ Info:** The bot will wait one minute after your last change to a config before starting to apply any changes. This buffer period ensures that you can make multiple adjustments without the bot starting and stopping repeatedly.
 
 ---
@@ -51,7 +47,7 @@ For a step-by-step guide on setting up your first config, see [Getting Started](
 
 These are the fundamental settings every config must have:
 
-#### **[⚙️ Modes](/config/mode)**
+#### **[⚙️ Modes](/config/modes)**
 Determines HOW the deletion algorithm works:
 - **Mode 0**: Disabled (no deletion)
 - **Mode 1**: Delete each message after X time individually
@@ -129,13 +125,9 @@ Control which messages in the timeline are processed:
 - Creates a temporal starting point
 - Useful for phased rollout
 
-**[⏪ Delete messages before](/config/delete-messages-before)** - ⚠️ Deprecated feature
-- No longer available
-- Historical reference only
-
 ### Message Loading
 
-**[📡 Load old messages](/config/load-old-messages.md)** - Decide whether to process existing messages:
+**[📡 Load old messages](/config/load-old-messages)** - Decide whether to process existing messages:
 - **Yes**: Process messages from the past 2 weeks
 - **No**: Only process new messages going forward
 - Critical decision when creating/modifying configs
@@ -275,14 +267,14 @@ Load old: Yes
 - Check permissions in the channel
 - Verify role configuration is valid
 - Review `/debug` for error messages
-- See [Troubleshooting Guide](troubleshooting.md)
+- See [Troubleshooting Guide](/troubleshooting)
 
 ---
 
 ## Related Documentation
 
 ### Configuration Details
-- [Modes](/config/mode) - Detailed mode explanations
+- [Modes](/config/modes) - Detailed mode explanations
 - [Limit](/config/limit) - Time and count specifications
 - [Filters](/config/filters) - All available filters
 - [Filter Behavior](/config/filter-behavior) - Filter logic

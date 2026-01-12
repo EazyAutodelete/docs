@@ -1,10 +1,9 @@
 ---
-title: "Limit"
-linkTitle: "⌛ Limit"
+title: "⌛ Limit"
 weight: 15
 ---
 
-The **Limit** value is a crucial configuration setting that determines when messages are deleted. Depending on the [Mode](mode.md) you've selected, the limit is interpreted either as a **time duration** or as a **number of messages**.
+The **Limit** value is a crucial configuration setting that determines when messages are deleted. Depending on the [Mode](/config/modes) you've selected, the limit is interpreted either as a **time duration** or as a **number of messages**.
 
 All ranges here are inclusive ranges. Meaning "> 10 seconds" allows you to also use 10 seconds as a limit.
 

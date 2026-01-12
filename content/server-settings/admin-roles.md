@@ -1,6 +1,5 @@
 ---
-title: "Administrator Roles"
-linkTitle: "👑 Administrator Roles"
+title: "👑 Administrator Roles"
 weight: 1
 ---
 
@@ -149,9 +148,9 @@ Administrator role holders have significant power over channel content:
 
 ## Related Documentation
 
-- [User Permissions](../reference/user-permissions.md) - Complete permission level breakdown
-- [Moderator Roles](mod-roles.md) - Setting up moderator access
-- [Server Settings](README.md) - Overview of server-wide settings
-- [Getting Started](../getting-started.md) - Initial configuration guide
+- [User Permissions](/reference/user-permissions) - Complete permission level breakdown
+- [Moderator Roles](/server-settings/mod-roles) - Setting up moderator access
+- [Server Settings](/server-settings) - Overview of server-wide settings
+- [Getting Started](/getting-started) - Initial configuration guide
 
 Need help configuring administrator roles? Join our [Support Server](https://eazyautodelete.xyz/discord/)!

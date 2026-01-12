@@ -1,16 +1,15 @@
 ---
 date: '2026-01-04T23:03:18+01:00'
-title: 'Modes'
-linkTitle: '⚙️ Modes'
+title: '⚙️ Modes'
 weight: 10
 ---
 
 
 EazyAutodelete currently supports 5 (+1) different deletion modes, each designed for specific use cases. You can create multiple configs with different modes in different channels, or even multiple configs with different modes in the same channel (up to 3 configs per channel, or more with [Premium](/premium)).
 
-Each mode works with all available [Filters](filters.md). In each mode, all messages that do not meet the configured filters are completely ignored by the deletion algorithm.
+Each mode works with all available [Filters](/config/filters). In each mode, all messages that do not meet the configured filters are completely ignored by the deletion algorithm.
 
-> **⚠️ Warning:** To prevent unwanted behavior and ensure your config works as expected, you **must** set a new [Limit](limit.md) after changing the mode. Different modes interpret the limit value differently (as time or message count).
+> **⚠️ Warning:** To prevent unwanted behavior and ensure your config works as expected, you **must** set a new [Limit](/config/limit) after changing the mode. Different modes interpret the limit value differently (as time or message count).
 
 ## Mode: 0 - Disabled
 
@@ -29,7 +28,7 @@ For example, if you set the limit to 30 seconds, each message will be deleted ex
 - Keep channels clean without permanently removing all conversation history at once
 - Allow users to read recent messages while automatically cleaning up older ones
 
-To change the time duration, see [Limit](limit.md).
+To change the time duration, see [Limit](/config/limit).
 
 ## Mode: 2 - Interval-Based Bulk Deletion
 
@@ -45,7 +44,7 @@ Otherwise the bot will use the current time as the interval start and the first 
 - Keeping channels clean by clearing them every few hours
 - Bulk cleanup of spam or temporary content at set times
 
-To change the time interval, see [Limit](limit.md).
+To change the time interval, see [Limit](/config/limit).
 
 ## Mode: 3 - Message Count-Based Bulk Deletion
 

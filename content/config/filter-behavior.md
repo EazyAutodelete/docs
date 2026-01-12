@@ -3,9 +3,6 @@ title: "🔂 Filter Behavior"
 weight: 30
 ---
 
-
-# 🔂 Filter Behavior
-
 **Filter Behavior** determines how multiple filters work together when you have more than one filter activated. This setting controls the logical relationship between your selected filters.
 
 ## Two Matching Modes
@@ -14,7 +11,7 @@ You can choose between two different filter matching behaviors:
 
 ### 1. Match ONE Activated Filter (OR Logic) - Default
 
-Delete messages that match **AT LEAST ONE** of your activated [filters](filters.md).
+Delete messages that match **AT LEAST ONE** of your activated [filters](/config/filters).
 
 **How it works:** If a message meets the criteria of ANY single filter you've selected, it will be deleted. This is a more flexible and inclusive approach.
 
@@ -33,7 +30,7 @@ Then the bot will delete messages that **either** contain links **OR** are from 
 
 ### 2. Match ALL Activated Filters (AND Logic)
 
-Delete messages that match **ALL** of your activated [filters](filters.md) simultaneously.
+Delete messages that match **ALL** of your activated [filters](/config/filters) simultaneously.
 
 **How it works:** A message must meet the criteria of EVERY filter you've selected to be deleted. This is a more strict and precise approach.
 

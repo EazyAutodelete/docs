@@ -1,6 +1,5 @@
 ---
-title: "User Permissions"
-linkTitle: "👑 User Permissions"
+title: "👑 User Permissions"
 weight: 1
 ---
 
@@ -14,13 +13,13 @@ This Permission Level is assigned to all commands that every user has access to.
 
 This Permission Level is assigned to all commands regarding logging and general information about the setup of EazyAutodelete on a server.
 
-Users are considered "Moderators" if they have at least one role from the server's configured ["Moderator Roles"](../server-settings/mod-roles.md).
+Users are considered "Moderators" if they have at least one role from the server's configured ["Moderator Roles"](/server-settings/mod-roles).
 
 ## 3. Server Administrators
 
 This Permission Level is assigned to all commands that change the Delete Configurations in a Server. This includes the `/setup` command.
 
-Users are recognized as Administrators if they have at least one role from server's configred ["Administrator Roles"](../server-settings/admin-roles.md) assigned or have the Discord "Administrator" permission.
+Users are recognized as Administrators if they have at least one role from server's configred ["Administrator Roles"](/server-settings/admin-roles) assigned or have the Discord "Administrator" permission.
 
 ## Additional Permissions
 
